@@ -1,0 +1,8 @@
+## prototype vs __proto__
+
+`prototype` является свойством объекта `Function`.
+`__proto__` внутреннее свойство `объектов`, указывающее на прототип.
+
+[[prototype]], [[proto]]
+
+#prototype, #proto

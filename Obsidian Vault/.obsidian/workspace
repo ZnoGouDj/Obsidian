@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Test.md",
+            "file": "JS/CORS.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
+                "file": "JS/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "Test.md"
+    "JS/CORS.md",
+    "JS/Middleware.md",
+    "JS/prototype vs proto.md",
+    "JS/Псевдомассивы.md",
+    "JS/async-await vs promises.md",
+    "GENERAL/RestAPI.md",
+    "GIT/Accidental git init.md",
+    "GIT/Reset all changes after last commit.md",
+    "JS/DOM это?.md",
+    "JS/Map, reduce & filter.md"
   ]
 }

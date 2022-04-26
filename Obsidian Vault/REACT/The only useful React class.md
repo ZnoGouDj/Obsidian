@@ -1,0 +1,36 @@
+## Несмотря на то, что в современном Реакт отошли от классов, какой класс все еще нужен?
+
+
+ErrorBoundary — это компоненты React, которые отлавливают ошибки JavaScript в любом месте деревьев их дочерних компонентов, сохраняют их в журнале ошибок и выводят запасной UI вместо рухнувшего дерева компонентов.
+
+```javascript
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+	// Обновить состояние с тем, чтобы следующий рендер показал запасной UI.   
+  static getDerivedStateFromError(error) {  
+  		return { hasError: true };  
+  }
+  
+  // Можно также сохранить информацию об ошибке в соответствующую службу журнала ошибок  
+  componentDidCatch(error, errorInfo) {    
+  		logErrorToMyService(error, errorInfo);  
+  }
+  
+  // Можно отрендерить запасной UI произвольного вида      
+  render() {
+    if (this.state.hasError) {      
+		return <h1>Что-то пошло не так.</h1>;    
+	}
+	
+    return this.props.children; 
+  }
+}
+```
+
+[[React]], [[ErrorBoundary]], [[classes]]
+
+#React, #ErrorBoundary, #classes
