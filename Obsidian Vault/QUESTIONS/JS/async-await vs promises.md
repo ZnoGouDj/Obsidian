@@ -35,7 +35,3 @@ const parentFunction = async () = > {
   // ... что то делаю с этими данными     
 }
 ```
-
-[[async/await]], [[promises]]
-
-#async/await, #promises

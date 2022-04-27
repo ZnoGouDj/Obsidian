@@ -28,7 +28,3 @@ function TextInputWithFocusButton() {
 ```
 
 По сути, `useRef` похож на «коробку», которая может содержать изменяемое значение в своём свойстве `.current`.
-
-[[useRef]], [[hooks]]
-
-#useRef, #hooks

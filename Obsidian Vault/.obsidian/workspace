@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/CORS.md",
+            "file": "JS/Замыкания.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/CORS.md",
+                "file": "JS/Замыкания.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "JS/CORS.md",
-    "JS/Middleware.md",
-    "JS/prototype vs proto.md",
-    "JS/Псевдомассивы.md",
-    "JS/async-await vs promises.md",
-    "GENERAL/RestAPI.md",
-    "GIT/Accidental git init.md",
-    "GIT/Reset all changes after last commit.md",
-    "JS/DOM это?.md",
-    "JS/Map, reduce & filter.md"
+    "JS/Замыкания.md",
+    "UNCLASSIFIED/протокол.md",
+    "UNCLASSIFIED/Node.js.md",
+    "UNCLASSIFIED/express.js.md",
+    "QUESTIONS/Redux/Redux  это?.md",
+    "REDUX/action creator.md",
+    "REDUX/Action.md",
+    "REDUX/Flow.md",
+    "REDUX/store.md",
+    "REDUX/Reducer.md"
   ]
 }

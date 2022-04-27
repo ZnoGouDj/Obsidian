@@ -7,7 +7,3 @@ First reset the changes
 then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command.
 
 ***git clean -fd***
- 
-[[GIT]][[reset]]
-
-#Git
