@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/Замыкания.md",
+            "file": "JS/Микротаски.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 345
   },
   "right": {
     "id": "6dc355e40643abcf",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/Замыкания.md",
+                "file": "JS/Микротаски.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "JS/Замыкания.md",
-    "UNCLASSIFIED/протокол.md",
-    "UNCLASSIFIED/Node.js.md",
-    "UNCLASSIFIED/express.js.md",
-    "QUESTIONS/Redux/Redux  это?.md",
-    "REDUX/action creator.md",
-    "REDUX/Action.md",
-    "REDUX/Flow.md",
-    "REDUX/store.md",
-    "REDUX/Reducer.md"
+    "JS/Микротаски.md",
+    "JS/Event Loop.md",
+    "QUESTIONS/JS/В каком порядке вызовется?.md",
+    "UNCLASSIFIED/axios.md",
+    "GENERAL/DOM.md",
+    "JS/Fetch.md",
+    "QUESTIONS/JS/Как копировать объект?.md",
+    "QUESTIONS/JS/Var, let, const.md",
+    "QUESTIONS/JS/Как копировать массив по значению?.md",
+    "GENERAL/RestAPI.md"
   ]
 }
