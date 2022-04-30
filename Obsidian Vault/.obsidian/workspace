@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/Микротаски.md",
+            "file": "JS/Promise.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/Микротаски.md",
+                "file": "JS/Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "JS/Микротаски.md",
-    "JS/Event Loop.md",
-    "QUESTIONS/JS/В каком порядке вызовется?.md",
-    "UNCLASSIFIED/axios.md",
-    "GENERAL/DOM.md",
-    "JS/Fetch.md",
-    "QUESTIONS/JS/Как копировать объект?.md",
-    "QUESTIONS/JS/Var, let, const.md",
-    "QUESTIONS/JS/Как копировать массив по значению?.md",
-    "GENERAL/RestAPI.md"
+    "JS/Promise.md",
+    "JS/async.md",
+    "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
+    "async/await.md",
+    "QUESTIONS/Redux/Что возвращает connect()?.md",
+    "REACT/HOC.md",
+    "QUESTIONS/React/Untitled.md",
+    "QUESTIONS/Redux/Redux  это?.md",
+    "QUESTIONS/React/Про хуки.md",
+    "REACT/useEffect.md"
   ]
 }
