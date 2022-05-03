@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/Promise.md",
+            "file": "JS/JS Best Practices.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/Promise.md",
+                "file": "JS/JS Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "JS/Promise.md",
-    "JS/async.md",
-    "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
-    "async/await.md",
-    "QUESTIONS/Redux/Что возвращает connect()?.md",
-    "REACT/HOC.md",
-    "QUESTIONS/React/Untitled.md",
-    "QUESTIONS/Redux/Redux  это?.md",
-    "QUESTIONS/React/Про хуки.md",
-    "REACT/useEffect.md"
+    "JS/JS Best Practices.md",
+    "UNCLASSIFIED/протокол.md",
+    "UNCLASSIFIED/утечка памяти.md",
+    "UNCLASSIFIED/Node.js.md",
+    "UNCLASSIFIED/KISS.md",
+    "UNCLASSIFIED/express.js.md",
+    "UNCLASSIFIED/Docker.md",
+    "UNCLASSIFIED/axios.md",
+    "REDUX/subscribe(listener).md",
+    "REDUX/store.md"
   ]
 }
