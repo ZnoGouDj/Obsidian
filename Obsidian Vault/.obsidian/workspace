@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/JS Best Practices.md",
+            "file": "QUESTIONS/JS/class vs object.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS Best Practices.md",
+                "file": "QUESTIONS/JS/class vs object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
+    "QUESTIONS/JS/class vs object.md",
+    "JS/Fetch.md",
+    "QUESTIONS/JS/Map, reduce & filter.md",
+    "JS/Promise.md",
+    "JS/Middleware.md",
+    "QUESTIONS/JS/Как копировать объект?.md",
+    "QUESTIONS/JS/Как копировать массив по значению?.md",
     "JS/JS Best Practices.md",
     "UNCLASSIFIED/протокол.md",
-    "UNCLASSIFIED/утечка памяти.md",
-    "UNCLASSIFIED/Node.js.md",
-    "UNCLASSIFIED/KISS.md",
-    "UNCLASSIFIED/express.js.md",
-    "UNCLASSIFIED/Docker.md",
-    "UNCLASSIFIED/axios.md",
-    "REDUX/subscribe(listener).md",
-    "REDUX/store.md"
+    "UNCLASSIFIED/утечка памяти.md"
   ]
 }
