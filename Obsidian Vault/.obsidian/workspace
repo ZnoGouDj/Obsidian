@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/JS/class vs object.md",
+            "file": "JS/String methods.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/JS/class vs object.md",
+                "file": "JS/String methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
+    "JS/String methods.md",
+    "REDUX/action creator.md",
+    "REDUX/Flow.md",
+    "QUESTIONS/Redux/FLOW Redux'a.md",
+    "QUESTIONS/Redux/Redux  это?.md",
+    "JS/Modules.md",
+    "JS/AJAX.md",
     "QUESTIONS/JS/class vs object.md",
     "JS/Fetch.md",
-    "QUESTIONS/JS/Map, reduce & filter.md",
-    "JS/Promise.md",
-    "JS/Middleware.md",
-    "QUESTIONS/JS/Как копировать объект?.md",
-    "QUESTIONS/JS/Как копировать массив по значению?.md",
-    "JS/JS Best Practices.md",
-    "UNCLASSIFIED/протокол.md",
-    "UNCLASSIFIED/утечка памяти.md"
+    "QUESTIONS/JS/Map, reduce & filter.md"
   ]
 }
