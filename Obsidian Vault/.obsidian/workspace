@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/String methods.md",
+            "file": "QUESTIONS/JS/'for in' vs 'for of'.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/String methods.md",
+                "file": "QUESTIONS/JS/'for in' vs 'for of'.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "JS/String methods.md",
+    "QUESTIONS/JS/'for in' vs 'for of'.md",
+    "JS/Untitled.md",
+    "JS/spread & rest.md",
+    "JS/деструктуризация.md",
+    "JS/TOP ES6 Features.md",
+    "JS/JS Best Practices.md",
+    "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
     "REDUX/action creator.md",
-    "REDUX/Flow.md",
-    "QUESTIONS/Redux/FLOW Redux'a.md",
-    "QUESTIONS/Redux/Redux  это?.md",
-    "JS/Modules.md",
-    "JS/AJAX.md",
-    "QUESTIONS/JS/class vs object.md",
-    "JS/Fetch.md",
-    "QUESTIONS/JS/Map, reduce & filter.md"
+    "GENERAL/Webpack.md",
+    "JS/ESLint.md"
   ]
 }
