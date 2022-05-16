@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/JS/'for in' vs 'for of'.md",
+            "file": "JS/spread & rest.md",
             "mode": "source"
           }
         }
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/JS/'for in' vs 'for of'.md",
+                "file": "JS/spread & rest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,14 +89,14 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
+    "JS/spread & rest.md",
+    "REDUX/action creator.md",
     "QUESTIONS/JS/'for in' vs 'for of'.md",
     "JS/Untitled.md",
-    "JS/spread & rest.md",
     "JS/деструктуризация.md",
     "JS/TOP ES6 Features.md",
     "JS/JS Best Practices.md",
     "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
-    "REDUX/action creator.md",
     "GENERAL/Webpack.md",
     "JS/ESLint.md"
   ]
