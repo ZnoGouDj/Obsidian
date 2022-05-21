@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/spread & rest.md",
+            "file": "REACT/Components.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rest",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/spread & rest.md",
+                "file": "REACT/Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
+    "REACT/Components.md",
+    "REACT/Жизненный цикл компонентов.md",
+    "REACT/File folder structure.md",
     "JS/spread & rest.md",
-    "REDUX/action creator.md",
-    "QUESTIONS/JS/'for in' vs 'for of'.md",
-    "JS/Untitled.md",
-    "JS/деструктуризация.md",
-    "JS/TOP ES6 Features.md",
     "JS/JS Best Practices.md",
-    "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
-    "GENERAL/Webpack.md",
-    "JS/ESLint.md"
+    "QUESTIONS/JS/async-await vs promises.md",
+    "JS/async.md",
+    "JS/Promise.md",
+    "GENERAL/Babel.md",
+    "GENERAL/Webpack.md"
   ]
 }
