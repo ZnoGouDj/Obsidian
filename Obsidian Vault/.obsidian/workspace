@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "REACT/Components.md",
+            "file": "REACT/useContext API.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "async",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REACT/Components.md",
+                "file": "REACT/useContext API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a444c08ce01f6fb9",
   "lastOpenFiles": [
-    "REACT/Components.md",
-    "REACT/Жизненный цикл компонентов.md",
-    "REACT/File folder structure.md",
-    "JS/spread & rest.md",
+    "REACT/useContext API.md",
+    "REACT/useContext.md",
+    "QUESTIONS/JS/Различия между до ES6 и после ES6.md",
+    "JS/Анонимные функции.md",
     "JS/JS Best Practices.md",
     "QUESTIONS/JS/async-await vs promises.md",
     "JS/async.md",
-    "JS/Promise.md",
-    "GENERAL/Babel.md",
-    "GENERAL/Webpack.md"
+    "QUESTIONS/React/Про хуки.md",
+    "QUESTIONS/Redux/Redux vs useContext.md",
+    "QUESTIONS/JS/Как сравнить объекты?.md"
   ]
 }
