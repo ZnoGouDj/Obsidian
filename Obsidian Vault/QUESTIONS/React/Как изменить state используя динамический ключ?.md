@@ -1,3 +1,5 @@
+(to change state using dymanic key)
+
 ```js
 inputChangeHandler(event) {
 	this.setState({

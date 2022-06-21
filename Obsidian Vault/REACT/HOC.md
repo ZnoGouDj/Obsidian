@@ -6,54 +6,27 @@
 3.  Управление props
 
 ```js
-const EnhancedComponent = higherOrderComponent(WrappedComponent);
-```
+const PcDisplay = (props) => {
+  return (<div>
+  <h1>{props.title}</h1>
+  <p id="price">£{props.price}</p>
+  <ul>
+    <li><label>CPU</label> <span>{props.cpu}</span></li>
+    <li><label>RAM</label> <span>{props.ram}</span></li>
+    <li><label>SSD</label> <span>{props.ssd}</span></li>
+  </ul>
+  </div>);
+};
 
-```js
-const CommentListWithSubscription = withSubscription(
-  CommentList,
-  (DataSource) => DataSource.getComments()
-);
-
-const BlogPostWithSubscription = withSubscription(
-  BlogPost,
-  (DataSource, props) => DataSource.getBlogPost(props.id)
-);
-```
-
-```js
-// Эта функция принимает компонент...
-function withSubscription(WrappedComponent, selectData) {
-  // ...и возвращает другой компонент...
-  return class extends React.Component {
-    constructor(props) {
-      super(props);
-      this.handleChange = this.handleChange.bind(this);
-      this.state = {
-        data: selectData(DataSource, props)
-      };
+// Implement HOC -> returns a functions that wraps the passed in `PcDisplay` component
+let withPriceModel = (AnotherPcDisplay, i_price=0) => {
+  return function(props){
+    return (<AnotherPcDisplay {...props} price={i_price + 50} />)
     }
-
-    componentDidMount() {
-      // ...который подписывается на оповещения...
-      DataSource.addChangeListener(this.handleChange);
-    }
-
-    componentWillUnmount() {
-      DataSource.removeChangeListener(this.handleChange);
-    }
-
-    handleChange() {
-      this.setState({
-        data: selectData(DataSource, this.props)
-      });
-    }
-
-    render() {
-      // ... и рендерит оборачиваемый компонент со свежими данными!
-      // Обратите внимание, что мы передаём остальные пропсы
-      return <WrappedComponent data={this.state.data} {...this.props} />;
-    }
-  };
 }
+
+// Build basic and pro model components using `withPriceModel`
+let BasicModel = withPriceModel(PcDisplay);
+
+let ProModel = withPriceModel(PcDisplay, 60);
 ```
