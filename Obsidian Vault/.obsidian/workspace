@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/TypeScript/Mixins.md",
+            "file": "QUESTIONS/Vue/computed.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/TypeScript/Mixins.md",
+                "file": "QUESTIONS/Vue/computed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bea81a54a058ad69",
   "lastOpenFiles": [
-    "QUESTIONS/TypeScript/Mixins.md",
-    "QUESTIONS/TypeScript/Type vs Interface.md",
-    "QUESTIONS/TypeScript/union.md",
-    "QUESTIONS/TypeScript/Слияние типов.md",
-    "QUESTIONS/TypeScript/tuple.md",
-    "QUESTIONS/HTML CSS/Абсолютные и относительные размеры CSS.md",
-    "QUESTIONS/HTML CSS/Box sizing в css.md",
-    "QUESTIONS/HTML CSS/Transform CSS.md",
-    "QUESTIONS/HTML CSS/Содержащий блок.md",
-    "QUESTIONS/HTML CSS/Типы позиционирования CSS.md"
+    "QUESTIONS/Vue/computed.md",
+    "QUESTIONS/Vue/v-model vue2 vs vue3.md",
+    "QUESTIONS/Vue/Двустороннее связывание?.md",
+    "QUESTIONS/Vue/props.md",
+    "QUESTIONS/Vue/постраничная навигация.md",
+    "QUESTIONS/Vue/Composition API.md",
+    "QUESTIONS/Vue/Реактивность.md",
+    "QUESTIONS/Vue/$emit.md",
+    "QUESTIONS/Vue/Двустороннее связывание для input.md",
+    "QUESTIONS/TypeScript/Mixins.md"
   ]
 }
