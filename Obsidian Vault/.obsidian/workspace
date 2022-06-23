@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/Vue/computed.md",
+            "file": "QUESTIONS/Vue/Асинхронные компоненты.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/Vue/computed.md",
+                "file": "QUESTIONS/Vue/Асинхронные компоненты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bea81a54a058ad69",
   "lastOpenFiles": [
-    "QUESTIONS/Vue/computed.md",
-    "QUESTIONS/Vue/v-model vue2 vs vue3.md",
-    "QUESTIONS/Vue/Двустороннее связывание?.md",
-    "QUESTIONS/Vue/props.md",
-    "QUESTIONS/Vue/постраничная навигация.md",
-    "QUESTIONS/Vue/Composition API.md",
-    "QUESTIONS/Vue/Реактивность.md",
-    "QUESTIONS/Vue/$emit.md",
-    "QUESTIONS/Vue/Двустороннее связывание для input.md",
-    "QUESTIONS/TypeScript/Mixins.md"
+    "QUESTIONS/Vue/Асинхронные компоненты.md",
+    "QUESTIONS/Vue/Принудительно обновить.md",
+    "QUESTIONS/Vue/store внутри компонента.md",
+    "QUESTIONS/Vue/Vuex.md",
+    "QUESTIONS/Vue/Можно ли изменять computed?.md",
+    "QUESTIONS/Vue/Миксины и жизненный цикл.md",
+    "QUESTIONS/Vue/Плагины.md",
+    "QUESTIONS/Vue/Телепорты.md",
+    "QUESTIONS/Vue/Keep-alive.md",
+    "QUESTIONS/Vue/Получить DOM-el.md"
   ]
 }
