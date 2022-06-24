@@ -1,6 +1,6 @@
 ```html
 <div>
-	<input type="checkbox" name="" id="check">
+	<input type="checkbox" id="check">
 	<label for="check"></label>
 </div>
 ```
@@ -24,7 +24,7 @@ Or
     width: 20px; /* not needed */
 }
 ```
-```xml
+```html
 <input class="red-input" type="checkbox" />
 <!-- Radio button example -->
 <input class="red-input" type="radio" />

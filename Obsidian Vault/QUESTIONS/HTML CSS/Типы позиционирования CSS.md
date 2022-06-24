@@ -1,4 +1,4 @@
-(positioning types)
+(positioning types CSS)
 
 Указывают как элементы позиционируются на странице. Бывают:
 
