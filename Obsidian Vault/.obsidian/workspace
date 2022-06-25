@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/HTML CSS/Media Queries CSS.md",
+            "file": "QUESTIONS/HTML CSS/Line-height CSS.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/HTML CSS/Media Queries CSS.md",
+                "file": "QUESTIONS/HTML CSS/Line-height CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bea81a54a058ad69",
   "lastOpenFiles": [
-    "QUESTIONS/HTML CSS/Media Queries CSS.md",
-    "QUESTIONS/HTML CSS/Увеличение при наведении.md",
-    "QUESTIONS/HTML CSS/Псевдоэлементы CSS.md",
-    "QUESTIONS/HTML CSS/Псевдоклассы CSS.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "QUESTIONS/HTML CSS/Виды инпутов.md",
-    "QUESTIONS/HTML CSS/Абсолютные и относительные размеры CSS.md",
-    "QUESTIONS/HTML CSS/Overflow CSS.md",
-    "QUESTIONS/HTML CSS/Семантические тэги HTML.md",
-    "QUESTIONS/HTML CSS/Содержащий блок.md"
+    "QUESTIONS/HTML CSS/Line-height CSS.md",
+    "QUESTIONS/HTML CSS/Mixins preprocessor CSS.md",
+    "QUESTIONS/HTML CSS/Endless animation CSS.md",
+    "QUESTIONS/HTML CSS/Rotate the block CSS.md",
+    "QUESTIONS/HTML CSS/Shadow CSS.md",
+    "QUESTIONS/HTML CSS/Selector + selector.md",
+    "QUESTIONS/HTML CSS/Hide the element.md",
+    "QUESTIONS/HTML CSS/Input style for files.md",
+    "QUESTIONS/HTML CSS/Data attribute.md",
+    "QUESTIONS/HTML CSS/Media Queries CSS.md"
   ]
 }
