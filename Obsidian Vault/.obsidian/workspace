@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/HTML CSS/Line-height CSS.md",
-            "mode": "source"
+            "file": "GENERAL/Data Structures.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/HTML CSS/Line-height CSS.md",
+                "file": "GENERAL/Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "bea81a54a058ad69",
   "lastOpenFiles": [
+    "GENERAL/Data Structures.md",
+    "stack.md",
     "QUESTIONS/HTML CSS/Line-height CSS.md",
     "QUESTIONS/HTML CSS/Mixins preprocessor CSS.md",
     "QUESTIONS/HTML CSS/Endless animation CSS.md",
@@ -95,8 +97,6 @@
     "QUESTIONS/HTML CSS/Shadow CSS.md",
     "QUESTIONS/HTML CSS/Selector + selector.md",
     "QUESTIONS/HTML CSS/Hide the element.md",
-    "QUESTIONS/HTML CSS/Input style for files.md",
-    "QUESTIONS/HTML CSS/Data attribute.md",
-    "QUESTIONS/HTML CSS/Media Queries CSS.md"
+    "QUESTIONS/HTML CSS/Input style for files.md"
   ]
 }
