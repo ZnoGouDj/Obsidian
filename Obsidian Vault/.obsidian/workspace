@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Data Structures.md",
-            "mode": "preview"
+            "file": "GENERAL/Algorytms.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Data Structures.md",
+                "file": "GENERAL/Algorytms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bea81a54a058ad69",
   "lastOpenFiles": [
+    "GENERAL/Algorytms.md",
     "GENERAL/Data Structures.md",
+    "GENERAL/Recursion.md",
     "stack.md",
     "QUESTIONS/HTML CSS/Line-height CSS.md",
     "QUESTIONS/HTML CSS/Mixins preprocessor CSS.md",
     "QUESTIONS/HTML CSS/Endless animation CSS.md",
     "QUESTIONS/HTML CSS/Rotate the block CSS.md",
     "QUESTIONS/HTML CSS/Shadow CSS.md",
-    "QUESTIONS/HTML CSS/Selector + selector.md",
-    "QUESTIONS/HTML CSS/Hide the element.md",
-    "QUESTIONS/HTML CSS/Input style for files.md"
+    "QUESTIONS/HTML CSS/Selector + selector.md"
   ]
 }
