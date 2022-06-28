@@ -10,6 +10,8 @@
 [Bubble Sort](#bubble_sort)
 [Quick Sort](#quick_sort)
 [Breadth-first search](#breadth_first_search)
+[Tree Count Algorithm](#tree_algorithm)
+[Caching Function](#caching_function)
 
 
 ### BIG_O_NOTATION ###
@@ -181,7 +183,27 @@ function bubbleSort(array) {
 	return array;
 }
 ```
-
+```js
+// mine
+function bubbleSort(array) {
+	let isSorted = false;
+	let switchQty = 0;
+	while (!isSorted) {
+		let switchQtyHere = switchQty;
+		for (let i = 0; i < array.length; i++) {
+			if (array[i] > array[i + 1]) {
+				let tmp = array[i];
+				array[i] = array[i + 1];
+				array[i + 1] = tmp;
+				switchQtyHere++;
+			}
+		}
+		if (switchQtyHere === switchQty) isSorted = true;
+		switchQty = switchQtyHere;
+	}
+	return array;
+}
+```
 Сложность - O(n*n)
 
 ### Quick_Sort ###
@@ -267,4 +289,192 @@ graph.c = ['d', 'e'];
 graph.d = ['f'];
 graph.e = ['f'];
 graph.f = ['g'];
+```
+
+В этом алгоритме будет использоваться структура данных ОЧЕРЕДЬ
+
+```js
+function breadthSearch(graph, start, end) {
+	let queue = [];
+	queue.push(start);
+	while (queue.length > 0) {
+		const current = queue.shift();
+		if (!graph[current]) {
+			graph[current] = []
+		}
+		if (graph[current].includes(end)) {
+			return true;
+		} else {
+			queue = [...queue, ...graph[current]]
+		}
+	}
+	return false;
+}
+```
+
+Также граф можно представить в виде матрицы смежности, составляется ТАБЛИЧКА, где столбцы и строчки - это вершины. И если путь из одной вершины в другую есть, то на их перекрестии ставится 1, если пути нет - 0. 
+
+```js
+const matrix = [ // Граф выше может быть представлен такой матрицей
+	[0, 1, 1, 0, 0, 0, 0],
+	[0, 0, 0, 0, 1, 0, 0],
+	[0, 0, 0, 1, 0, 1, 0],
+	[0, 0, 0, 0, 1, 0, 0],
+	[0, 0, 0, 0, 0, 0, 1],
+	[0, 0, 0, 0, 1, 0, 0],
+	[0, 0, 0, 0, 0, 0, 0]
+]
+```
+Теперь реализуем алгоритм Дейкстры (Dijkstra's algorithm) для поиска кратчайшего пути:
+
+![[Dijkstra's algorithm.png]]
+
+В поиске в ширину мы проходим по вершинам графа и не важно, длительный он или нет
+Главное - кол-во пройденных участков 
+НО в алгоритме ДЕЙКСТРЫ учитывается длина пройденного ребра, т.н. ВЕС лол
+
+За стартовую точку принимаем А, за конечную G
+Составляется табличка, в которую на первом этапе записываются значения ТЕХ вершин, в которые мы МОЖЕМ попасть из стартовой точки
+Все остальные вершины являются недостижимыми и мы их помечаем знаком Infinity
+
+На втором этапе мы помечаем эти вершины как уже РАССМОТРЕННЫЕ 
+На третьем этапе мы рассматриваем вершины, в которые мы можем попасть из точек B и С, и в таблицу записываем значения от точки А до точек, которые мы достигаем из вершин B и С
+ОПЯТЬ помечаем эти точки как уже рассмотренные 
+
+На следующем этапе мы достигаем точки G, НО у нас происходит ПЕРЕРАСЧЕТ -- мы находим путь до точки F, который оказывается КОРОЧЕ, и перезаписываем значение в таблице
+
+И на следующем этапе мы проделываем все то же самое и находим оптимальный путь и узнаем, что из точки А в точку G можно добраться за 5 условных единиц
+
+Реализация:
+```js
+const graph = {}
+// теперь вершины не массивы, а объекты с расстоянием между 2х вершин
+graph.a = {b: 2, c: 1}; 
+graph.b = {f: 7}; 
+graph.c = {d: 5, e: 2};
+graph.d = {f: 2};
+graph.e = {f: 1};
+graph.f = {g: 1};
+graph.g = {};
+
+function shortPath(graph, start, end) {
+	const costs = {}; // создаем объект для хранения минимальных стоимостей
+	const processed = []; // массив для хранения обработанных объектов
+	let neighbors = {}; // объект для добавления ближайших соседей
+	Object.keys(graph).forEach(node => {
+		if (node !== start) {
+			let value = graph[start][node]; 
+			// добавили значения тех вершин, в которые можем попасть со стартовой вершины
+			costs[node] = value || 1000000000; 
+		}
+	})
+	let node = findNodeLowestCost(costs, processed)
+	while (node) {
+		const cost = costs[node]; // затем нашли узел с минимальной стоимостью 
+		neighbors = graph[node];
+		// и перебирая узлы с мин стоимостями обновляем значения в таблице с мин путями
+		Object.keys(neightbors).forEach(neighbor => {
+			let newCost = cost + neighbors[neighbor];
+			if (newCost < cost[neighbor]) {
+				costs[neighbor] = newCost
+			}
+		})
+		processed.push(node)
+		// в конце цикла мы каждый узел помечали как обработанный 
+		node = findNodeLowestCost(costs, processed)
+		// и искали новый узел 
+	}
+	return costs;
+}
+
+function findNodeLowestCost(costs, processed) {
+	let lowestCost = 1000000000;
+	let lowestNode;
+	Object.keys(costs).forEach(node => {
+		let cost = costs[node];
+		if (cost < lowestCost && !processed.includes(node)) {
+			lowestCost = cost;
+			lowestNode = node;
+		}
+	})
+	return lowestNode;
+}
+```
+
+### Tree_algorithm ###
+Поскольку дерево является массивом узлов, мы по нему можем проитерироваться: 
+
+Рекурсивная версия:
+```js
+const recursive = (tree) => {
+	let sum = 0;
+	tree.forEach(node => {
+		sum += node.v;
+		if (!node.c) {
+			return node.v;
+		}
+		sum += recursive(node.c);
+	})
+	return sum;
+}
+```
+
+Цикличная версия:
+```js
+const iteration = (tree) => {
+	if (!tree.length) {
+		return 0;
+	}
+	
+	let sum = 0;
+	let stack = []; // использовать будем как стэк
+	tree.forEach(node => stack.push(node));
+	while(stack.length) {
+		const node = stack.pop();
+		sum += node.v;
+		if (node.c) {
+			node.c.forEach(child => stack.push(child));
+		}
+	}
+	return sum;
+}
+```
+
+### Caching_function ###
+(функция кеширования)
+
+```js
+function factorial(n) { // эта функция для того, чтобы было что кэшировать
+	let result = 1;
+	while (n != 1) {
+		result *= n;
+		n -= 1;
+	}
+	return result;
+}
+
+function cashFunction(fn) {
+	const cash = {}
+	return function(n) {
+		console.log('cached', cash[n]); // проверим что взято кешированием...
+		if (cash[n]) {
+			return cash[n]
+		}
+		let result = fn(n);
+		console.log('counted by fn = ', result); // а что посчитано функцией
+		cash[n] = result;
+		return result;
+	}
+}
+
+// создадим функцию которая будет кешировать факториал
+const cashFactorial = cashFunction(factorial) 
+
+cashFactorial(5) // counted by fn = 120
+cashFactorial(4) // counted by fn = 24
+cashFactorial(3) // counted by fn = 6
+cashFactorial(4) // cached 24
+cashFactorial(5) // cached 120
+cashFactorial(1) // counted by fn = 1
+
 ```
