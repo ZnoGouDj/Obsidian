@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bea81a54a058ad69",
+        "id": "d48d0246cd42766e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Data Structures Alt.md",
+            "file": "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Data Structures Alt.md",
+                "file": "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bea81a54a058ad69",
+  "active": "d48d0246cd42766e",
   "lastOpenFiles": [
-    "GENERAL/Data Structures Alt.md",
+    "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
+    "GENERAL/RestAPI.md",
+    "GENERAL/протокол.md",
+    "GENERAL/SOLID.md",
+    "QUESTIONS/General/Где хранить данные в браузере?.md",
+    "QUESTIONS/General/Как обрабатывает страницу браузер?.md",
+    "GENERAL/WebSocket.md",
+    "GENERAL/CORS.md",
     "GENERAL/Data Structures.md",
-    "GENERAL/Algorithms.md",
-    "topics.json.md",
-    "GENERAL/Node.js.md",
-    "GENERAL/утечка памяти.md",
-    "METHODOLOGIES/Scrum.md",
-    "JS/async.md",
-    "GENERAL/Recursion.md",
-    "stack.md"
+    "QUESTIONS/JS/Как копировать массив по значению?.md"
   ]
 }

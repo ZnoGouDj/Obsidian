@@ -2,10 +2,12 @@
 
 [Stack](#stack)
 [Queue](#queue)
+[Array](#array)
 [Linked List](#linked_list)
-[Set](#set)
+[Set & Map](#set_&_map)
 [Hash Table](#hash_table)
 [Tree](#tree)
+[Binary Tree](#binary_tree)
 [Graph](#graph)
 [Нагруженное (префиксное) дерево (trie)](#trie)
 
@@ -96,11 +98,22 @@ function Queue() {
 }
 ```
 
+### Array ###
+Последовательный набор каких-то объектов
+Занимает конкретный участок в памяти и изначально определено, сколько элементов в нем будет находиться.
+
+**Плюсы этого подхода** - знаем позицию каждого элемента и можем получить его за КОНСТАНТНОЕ время (мгновенно)
+
+**Минусы подхода** - чтобы добавить новый элемент в массив, нам нужно создавать НОВЫЙ МАССИВ на одну ячейку больше, перекидывать значения из старого массива, добавлять новый элемент и удалять старый массив.
+
+Поэтому хорошо подходит для случаев, где НЕЧАСТО надо изменять размер массива и часто обращаться к данным 
+
 ### Linked_List ###
+Каждый элемент занимает отдельное место в памяти 
+Связность происходит потому, что каждый ПРЕДЫДУЩИЙ элемент хранит ссылку на СЛЕДУЮЩИЙ элемент в списке
+
 ![[data-structure-linked-list.gif]]
 
-Представляет "цепочную" структуру данных, где каждый узел состоит из 2х частей: данных и указателя на следующий узел. 
-Сравнивая с условным массивом, можно выделить отличия:
 <div class="table table_wrapped"><table>
 <tbody><tr>
 <th>Критерий</th>
@@ -129,6 +142,65 @@ function Queue() {
 </tr>
 </tbody></table></div>
 
+**Плюс этого подхода** - можем добавлять элементы в конец и начало списка
+**Минус подхода** - чтобы ПОЛУЧИТЬ какой-то элемент, нам с самого начала списка надо итерироваться с сравнивать 
+
+Хорошо подходит если редко обращаемся к данным, и часто этот список дополняем
+
+```js
+class LinkedList {
+	constructor() {
+		this.size = 0;
+		this.root = null;
+	}
+	add(value) {
+		if (this.size === 0) {
+			this.root = new Node(value);
+			this.size += 1;
+			return true;
+		}
+		let node = this.root;
+		while (node.next) {
+			node = node.next
+		}
+		let newNode = new Node(value);
+		node.next = newNode;
+		this.size += 1;
+	}
+	
+	getSize() {
+		return this.size;
+	}
+	
+	print() {
+		let result = []
+		let node = this.root;
+		while (node) {
+			result.push(node.value);
+			node = node.next;
+		}
+		console.log(result);
+		return result;
+	}
+}
+
+class Node {
+	constructor(value) {
+		this.value = value;
+		this.next = null;
+	}
+}
+
+const list = new LinkedList()
+list.add(5)
+list.add(3)
+list.add(2)
+list.add(5)
+list.add(7)
+
+list.print() // [5, 3, 2, 5, 7]
+```
+
 **Методы:**
 -   size: вернуть количество узлов
 -   head: вернуть первый элемент (head — голова)
@@ -139,208 +211,44 @@ function Queue() {
 -   addAt: вставить узел в определенное место (по индексу)
 -   removeAt: удалить определенный узел (по индексу)
 
-**Реализация:**
+
+
+### Set_&_Map ###
+Хранят в себе пары ключ : значение, где значение мы получаем ПО КЛЮЧУ.
+По сути обычный объект JS уже является Map
+
+Основное преимущество структуры - мы можем за константное время добавлять объекты в структуру и извлекать.
+
+**Map** - можем как КЛЮЧ использовать не только строки, но и объекты. 
 
 ```js
-function Node(element) { 
-	// данные 
-	this.element = element 
-	// указатель на следующий узел 
-	this.next = null 
-} 
+const map = new Map()
 
-function LinkedList() { 
-	let length = 0 
-	let head = null 
-	this.size = function() { 
-		return length 
-	} 
-	
-	this.head = function() { 
-		return head 
-	} 
-	
-	this.add = function(element) { 
-		let node = new Node(element) 
-		if (head === null) { 
-			head = node 
-		} else { 
-			let currentNode = head 
-			while (currentNode.next) { 
-				currentNode = currentNode.next 
-			} 
-			currentNode.next = node 
-		} 
-		length++ 
-	} 
-	
-	this.remove = function(element) { 
-		let currentNode = head 
-		let previousNode 
-		if (currentNode.element !== element) { 
-			head = currentNode.next 
-		} else { 
-			while (currentNode.element !== element) { 
-				previousNode = currentNode 
-				currentNode = currentNode.next 
-			} 
-			previousNode.next = currentNode.next 
-		} 
-		length-- 
-	} 
-	
-	this.isEmpty = function() { 
-		return length === 0 
-	} 
-	
-	this.indexOf = function(element) { 
-		let currentNode = head 
-		let index = -1 
-		while (currentNode) { 
-			index++ 
-			if (currentNode.element === element) { 
-				return index 
-			} 
-			currentNode = currentNode.next 
-		} 
-		return -1 
-	} 
-	
-	this.elementAt = function(index) { 
-		let currentNode = head 
-		let count = 0 
-		while (count < index) { 
-			count++ 
-			currentNode = currentNode.next 
-		} 
-		return currentNode.element 
-	} 
-	
-	this.addAt = function(index, element) { 
-		let node = new Node(element) 
-		let currentNode = head 
-		let previousNode 
-		let currentIndex = 0 
-		if (index > length) return false 
-		if (index === 0) { 
-			node.next = currentNode 
-			head = node 
-		} else { 
-			while (currentIndex < index) { 
-				currentIndex++ 
-				previousNode = currentNode 
-				currentNode = currentNode.next 
-			} 
-			node.next = currentNode 
-			previousNode.next = node 
-		} 
-		length++ 
-	} 
-	
-	this.removeAt = function(index) { 
-		let currentNode = head 
-		let previousNode 
-		let currentIndex = 0 
-		if (index < 0 || index >= length) return null 
-		if (index === 0) { 
-			head = currentIndex.next 
-		} else { 
-			while (currentIndex < index) { 
-				currentIndex++ 
-				previousNode = currentNode 
-				currentNode = currentNode.next 
-			} 
-			previousNode.next = currentNode.next 
-		} 
-		length-- 
-		return currentNode.element 
-	} 
-}
+map.set('name', 'znogoud');
+
+console.log(map.get('name')); // znogoud
+
+// но такая запись не отличается от обычного объекта. Делаем ключ-объект
+
+const objKey = {id: 5};
+map.set(objKey, 'znogoud');
+
+console.log(map.get(objKey)); // znogoud
 ```
 
-### Set ###
-![[data-structure-set.png]]
+**Set** - хранит в себе ТОЛЬКО уникальные значения. 
 
-Коллекция, которая не допускает повторов элементов и не содержит индексов.
-
-**Методы:**
--   values: вернуть все элементы в коллекции
--   size: вернуть количество элементов
--   has: проверить, имеется ли элемент в коллекции
--   add: добавить элемент
--   remove: удалить элемент
--   union: вернуть область пересечения двух коллекций
--   difference: вернуть отличия двух коллекций
--   subset: проверить, является ли одна коллекция подмножеством другой
-
-**Реализация:**
 ```js
-function MySet() { 
-	let collection = [] 
-	this.has = function(element) { 
-		return (collection.indexOf(element) !== -1) 
-	}
-	
-	this.values = function() { 
-		return collection 
-	} 
-	
-	this.size = function() { 
-		return collection.length 
-	} 
-	
-	this.add = function(element) { 
-		if (!this.has(element)) { 
-			collection.push(element) 
-			return true 
-		} 
-		return false 
-	} 
-	
-	this.remove = function(element) { 
-		if (this.has(element)) { 
-			index = collection.indexOf(element) 
-			collection.splice(index, 1) 
-			return true 
-		} 
-		return false 
-	} 
-	
-	this.union = function(otherSet) { 
-		let unionSet = new MySet() 
-		let firstSet = this.values() 
-		let secondSet = otherSet.values() 
-		firstSet.forEach(i => unionSet.add(i)) 
-		secondSet.forEach(i => unionSet.add(i)) 
-	} 
-	
-	this.intersection = function(otherSet) { 
-		let intersectionSet = new MySet() 
-		let firstSet = this.values() 
-		firstSet.forEach(function(e) { 
-			if (otherSet.has(e)) { 
-				intersectionSet.add(e) 
-			} 
-		}) 
-		return intersectionSet 
-	} 
-	
-	this.difference = function(otherSet) { 
-		let differenceSet = new MySet() 
-		let firstSet = this.values() 
-		firstSet.forEach(function(e) { 
-			if (!otherSet.has(e)) { 
-				differenceSet.add(e) 
-			} 
-		}) 
-		return differenceSet 
-	} 
-	
-	this.subset = function(otherSet) { 
-		let firstSet = this.values() 
-		return firstSet.every(value => otherSet.has(value)) 
-	} 
-}
+const set = new Set();
+
+set.add(5);
+set.add(5);
+set.add(5);
+set.add(5);
+set.add(4);
+set.add(3);
+
+console.log(set); // {5, 4, 3}
 ```
 
 ### Hash_Table ###
@@ -436,136 +344,79 @@ function HashTable() {
 -   Depth of Node (глубина узла): количество ссылок от корневого узла до определенного элемента
 -   Degree of Node: количество потомков
 
-#### Двоичноe дерево поиска
-Binary Search Tree — структура, где каждый узел имеет ТОЛЬКО двоих потомков, левый (дочерний) узел меньше текущего (родительского), правый — больше
+### Binary_tree ### 
+Структура данных, где каждый узел также является деревом (то есть структура рекурсивна). И основаня суть В ТОМ, что у каждого узла может быть ТОЛЬКО два потомка.
 
 ![[data-structure-binary-tree.png]]
 
-**Методы:**
--   add: добавить узел
--   findMin: получить минимальный узел
--   findMax: получить максимальный узел
--   find: найти определенный узел
--   isPresent: проверить наличие определенного узла
--   remove: удалить узел
+Добавляются эти узлы тоже особым способом: если добавляемое в дерево значения МЕНЬШЕ, чем текущий узел, то значение идет в левое поддерево. Если БОЛЬШЕ - в правое.
 
-**Реализация:**
+Сравнение происходит с каждым узлом, и получается что правая часть поддерева выстраивается с бОльшими значениями, левая - с меньшими. 
+
+Называется бинарным, потому что здесь также как в бинарном поиске, можно находить ДАННЫЕ за логарифмическое время (O(log2n))
+
 ```js
-class Node { 
-	constructor(data, left = null, right = null) { 
-		this.data = data 
-		this.left = left 
-		this.right = right 
-	} 
-} 
-
-class BST { 
-	constructor() { 
-		this.root = null 
-	} 
+class BinaryTree {
+	constructor() {
+		this.root = null;
+	}
 	
-	add(data) { 
-		const node = this.root 
-		if (node === null) { 
-			this.root = new Node(data) 
-			return 
-		} else { 
-			const searchTree = function(node) { 
-				if (data < node.data) { 
-					if (node.left === null) { 
-						node.left = new Node(data) 
-						return 
-					} else if (node.left !== null) { 
-						return searchTree(node.left) 
-					} 
-				} else if (data > node.data) { 
-					if (node.right === null) { 
-						node.right = new Node(data) 
-						return 
-					} else if (node.right !== null) { 
-						return searchTree(node.right) 
-					} 
-				} else { 
-					return null 
-				} 
-			} 
-			return searchTree(node) 
-		} 
-	} 
-	
-	findMin() { 
-		let current = this.root 
-		while (current.left !== null) { 
-			current = current.left 
-		} 
-		return current.data 
-	} 
-	
-	findMax() { 
-		let current = this.root 
-		while (current.right !== null) { 
-			current = current.right 
-		} 
-		return current.data 
-	} 
-	
-	find(data) { 
-		let current = this.root 
-		while (current.data !== data) { 
-			if (data < current.data) { 
-				current = current.left 
-			} else { 
-				current = current.right 
-			} 
-			if (current === null) { 
-				return null 
-			} 
-		} 
-		return current 
-	} 
-	
-	isPresent(data) { 
-		let current = this.root 
-		while (current) { 
-			if (data === current.data) { 
-				return true 
-			} 
-			data < current.data ? current = current.left : current = current.right 
-		} 
-		return false 
-	} 
-	
-	remove(data) { 
-		const removeNode = function(node, data) { 
-			if (node === null) return null 
-			if (data === node.data) { 
-				// потомки отсутствуют 
-				if (node.left === null && node.right === null) return null 
-				// отсутствует левый узел 
-				if (node.left === null) return node.right 
-				// отсутствует правый узел 
-				if (node.right === null) return node.left 
-				// имеется два узла 
-				let tempNode = node.right 
-				while (tempNode.left !== null) { 
-					tempNode = tempNode.left 
+	add(value) {
+		if (!this.root) {
+			this.root = new TreeNode(value);
+		} else {
+			let node = this.root;
+			let newNode = new TreeNode(value);
+			while(node) {
+				if (value > node.value) {
+					if (!node.right) {
+						break;
+					}
+					node = node.right;
+				} else {
+					if (!node.left) {
+						break;
+					}
+					node = node.left;
 				}
-				node.data = tempNode.data 
-				node.right = removeNode(node.right, tempNode.data) 
-				return node 
-			} else if (data < node.data) { 
-				node.left = removeNode(node.right, data) 
-				return node 
-			} else { 
-				node.right = removeNode(node.right, data) 
-				return node 
-			} 
-		} 
-		this.root = removeNode(this.root, data) 
-	} 
+			}
+			if (value > node.value) {
+				node.right = newNode
+			} else {
+				node.left = newNode
+			}
+		}
+	}
+	
+	print(root = this.root) {
+		if (!root) {
+			return true;
+		}
+		console.log(root.value);
+		this.print(root.left);
+		this.print(root.right);
+	}
 }
-```
 
+class TreeNode {
+	constructor(value) {
+		this.value = value;
+		this.left = null;
+		this.right = null;
+	}
+}
+
+const tree = new BinaryTree() 
+
+tree.add(5)
+tree.add(2)
+tree.add(6)
+tree.add(2)
+tree.add(1)
+
+tree.print()  // 5 2 2 1 6
+// ! вначале вывелось левое поддерево (т.е. значения меньше 5) и затем только правое (в него ушла 6)
+```
 
 ### Graph ###
 ![[data-structure-graph.png]]
