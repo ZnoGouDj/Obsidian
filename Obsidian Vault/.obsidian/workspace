@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
-            "mode": "source"
+            "file": "JS/Event Loop.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
+                "file": "JS/Event Loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d48d0246cd42766e",
+  "active": "36127755f55c082d",
   "lastOpenFiles": [
-    "QUESTIONS/General/Что происходит когда вводишь адрес в браузере?.md",
-    "GENERAL/RestAPI.md",
     "GENERAL/протокол.md",
-    "GENERAL/SOLID.md",
-    "QUESTIONS/General/Где хранить данные в браузере?.md",
-    "QUESTIONS/General/Как обрабатывает страницу браузер?.md",
-    "GENERAL/WebSocket.md",
+    "JS/Fetch.md",
+    "QUESTIONS/JS/class vs object.md",
     "GENERAL/CORS.md",
-    "GENERAL/Data Structures.md",
-    "QUESTIONS/JS/Как копировать массив по значению?.md"
+    "GENERAL/Webpack.md",
+    "QUESTIONS/HTML CSS/Custom checkbox.md",
+    "QUESTIONS/React/jQuery vs React.md",
+    "JS/AJAX.md",
+    "QUESTIONS/HTML CSS/Псевдоклассы CSS.md",
+    "QUESTIONS/HTML CSS/Псевдоэлементы CSS.md"
   ]
 }

@@ -27,7 +27,7 @@ class Cat extends Animal {
 	
 	constructor(options) { // расширяем конструктор (2)
 		super(options); // вызываем конструктор Animal, передаем options (3)
-		this.color= options.color; // добавляем нужное (4)
+		this.color = options.color; // добавляем нужное (4)
 	}
 	
 	voice() {

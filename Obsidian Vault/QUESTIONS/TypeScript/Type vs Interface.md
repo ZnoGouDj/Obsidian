@@ -14,17 +14,17 @@
 2) если хочешь заюзать declaration merging ([[слияние типов]])
 
 **Только ТИП может обозначить примитив**
-```javascript
+```ts
 type Nullish = null | undefined;
 type Fruit = 'apple' | 'pear' | 'orange';
 type Num = number | bigint;
 ```
 **Только ТИП может обозначить Tuple**
-```javascript
+```ts
 type row = [colOne: number, colTwo: string];
 ```
 **Только ТИП может обозначить Union**
-```javascript
+```ts
 type Fruit = 'apple' | 'pear' | 'orange';
 type Vegetable = 'broccoli' | 'carrot' | 'lettuce';
 
@@ -33,7 +33,7 @@ type HealthyFoods = Fruit | Vegetable;
 ```
 
 **Функции можно обозначить и ТИПОМ и ИНТЕРФЕЙСОМ**
-```javascript
+```ts
 // via type
 type Sum = (x: number, y: number) => number;
 

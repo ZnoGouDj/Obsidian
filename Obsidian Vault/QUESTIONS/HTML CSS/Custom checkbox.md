@@ -29,4 +29,9 @@ Or
 <!-- Radio button example -->
 <input class="red-input" type="radio" />
 ```
-```
+<input style="accent-color: #9d3039;
+    height: 20px;
+    width: 20px; " type="checkbox" />
+<input style="accent-color: #9d3039;
+    height: 20px;
+    width: 20px; " type="radio" />

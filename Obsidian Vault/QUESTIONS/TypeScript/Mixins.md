@@ -5,7 +5,7 @@
 
 Делаем базовый класс для применения Миксинов:
 
-```js
+```ts
 class Block {
     name = "";
     length = 0;
@@ -22,7 +22,7 @@ class Block {
 
 Затем делаем классы для расширения базового класса:
 
-```js
+```ts
 class Moulder {
   moulding = true;
   done = false
@@ -43,7 +43,7 @@ class Stacker {
 
 Делаем интерфейс, который свяжет их (ВАЖНО! сделать такое же имя "Block"):
 
-```js
+```ts
 interface Block extends Moulder, Stacker {}
 ```
 
@@ -53,7 +53,7 @@ interface Block extends Moulder, Stacker {}
 
 Можно использовать функцию из коробки **applyMixins**:
 
-```js
+```ts
 function applyMixins(derivedCtor: any, constructors: any[]) {
   constructors.forEach((baseCtor) => {
     Object.getOwnPropertyNames(baseCtor.prototype).forEach((name) => {
@@ -70,6 +70,6 @@ function applyMixins(derivedCtor: any, constructors: any[]) {
 
 она проходится по **Moduler** & **Stacker** классам, потом по их списку свойств и задает эти же свойства в класс **Block**
 
-```js
+```ts
 applyMixins(Block, [Moulder, Stacker]);
 ```

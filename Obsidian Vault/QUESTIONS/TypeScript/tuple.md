@@ -1,6 +1,6 @@
 Позволяет обозначить разные типы данных.
 
-```js
+```ts
 var empId: number = 1; 
 var empName: string = "Steve";        
 
@@ -10,7 +10,7 @@ var employee: [number, string] = [1, "Steve"];
 
 Больше примеров:
 
-```js
+```ts
 var employee: [number, string] = [1, "Steve"];
 var person: [number, string, boolean] = [1, "Steve", true];
 
@@ -20,14 +20,14 @@ user = [1, "Steve", true, 20, "Admin"]; // initialize tuple variable
 
 Массив tuple: 
 
-```js
+```ts
 var employee: [number, string][];
 employee = [[1, "Steve"], [2, "Bill"], [3, "Jeff"]];
 ```
 
 Можно добавить элементы:
 
-```js
+```ts
 var employee: [number, string] = [1, "Steve"];
 employee.push(2, "Bill"); // valid for the "employee" typle 👍
 console.log(employee); //Output: [1, 'Steve', 2, 'Bill']
