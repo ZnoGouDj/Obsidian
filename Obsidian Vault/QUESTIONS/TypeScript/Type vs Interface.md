@@ -43,7 +43,7 @@ interface Sum {
 }
 ```
 
-Про обеъкты тут:
+Про объекты тут:
 
 https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript#:~:text=the%20type%20keyword-,object%20types,-An%20object%20in
 

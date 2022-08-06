@@ -1,0 +1,2 @@
+1) remove or fix the problematic file in a new commit and then push it to remote repo
+2) OR you can create new commit that undoes all the changes that were made in the parent commit (using **git revert "commit id"**)

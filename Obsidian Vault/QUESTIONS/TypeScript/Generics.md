@@ -30,3 +30,18 @@ const userState: UserState = {
 } // ...
 ```
 
+пример функции generic для работы с массивами:
+![[generics_array.png]]
+
+встроенные типы generic на примере Promise, Array, Record:
+![[generics_built_in.png]]
+
+Generic + Object. Получаем значение по ключу:
+![[generics_ext+key.png]]
+
+Generic + extends. Простой пример:
+![[generics_extends.png]]
+
+Пример функции generic для работы с объектами:
+![[generics_obj_merge.png]]
+

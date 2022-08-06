@@ -1,0 +1,3 @@
+Например ты работаешь в одной ветке и надо переключиться в другую, но не хочешь коммитить наполовину завершенное задание в качестве "сохранения". Для этого подойдет git stash - он сохраняет сделанные изменения и ты можешь их восстановить позже
+
+The modifications stashed away by this command can be listed with `git stash list`, inspected with `git stash show`, and restored (potentially on top of a different commit) with `git stash apply`. Calling `git stash` without any arguments is equivalent to `git stash push`
