@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/TypeScript/base/inheritance in TS.md",
+            "file": "QUESTIONS/TypeScript/Type vs Interface.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/TypeScript/base/inheritance in TS.md",
+                "file": "QUESTIONS/TypeScript/Type vs Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "8fa197fe51d41be8",
   "lastOpenFiles": [
-    "QUESTIONS/TypeScript/base/class types.md",
+    "QUESTIONS/TypeScript/base/Interface.md",
+    "QUESTIONS/TypeScript/Type vs Interface.md",
+    "QUESTIONS/TypeScript/base/interface.md",
+    "QUESTIONS/TypeScript/base/namespace.md",
     "QUESTIONS/TypeScript/base/inheritance in TS.md",
+    "QUESTIONS/TypeScript/base/class types.md",
     "QUESTIONS/TypeScript/base/function types.md",
     "QUESTIONS/TypeScript/base/object types.md",
     "QUESTIONS/TypeScript/Слияние типов.md",
-    "QUESTIONS/TypeScript/union.md",
-    "QUESTIONS/TypeScript/Mixins.md",
-    "QUESTIONS/TypeScript/tuple.md",
-    "QUESTIONS/TypeScript/type Never.md",
-    "QUESTIONS/TypeScript/Type vs Interface.md"
+    "QUESTIONS/TypeScript/union.md"
   ]
 }
