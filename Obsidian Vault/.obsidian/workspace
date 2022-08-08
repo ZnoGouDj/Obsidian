@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/TypeScript/Type vs Interface.md",
+            "file": "GENERAL/ООП.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "best",
+                "query": "инкапсуляц",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/TypeScript/Type vs Interface.md",
+                "file": "GENERAL/ООП.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "8fa197fe51d41be8",
   "lastOpenFiles": [
-    "QUESTIONS/TypeScript/base/Interface.md",
-    "QUESTIONS/TypeScript/Type vs Interface.md",
-    "QUESTIONS/TypeScript/base/interface.md",
-    "QUESTIONS/TypeScript/base/namespace.md",
-    "QUESTIONS/TypeScript/base/inheritance in TS.md",
+    "QUESTIONS/JS/class vs object.md",
     "QUESTIONS/TypeScript/base/class types.md",
-    "QUESTIONS/TypeScript/base/function types.md",
-    "QUESTIONS/TypeScript/base/object types.md",
-    "QUESTIONS/TypeScript/Слияние типов.md",
-    "QUESTIONS/TypeScript/union.md"
+    "QUESTIONS/TypeScript/base/utility types.md",
+    "QUESTIONS/TypeScript/base/decorators.md",
+    "JS/String char codes.md",
+    "GENERAL/ООП.md",
+    "JS/TOP ES6 Features.md",
+    "QUESTIONS/TypeScript/base/generics (поверхностно).md",
+    "QUESTIONS/TypeScript/Generics (подробно).md",
+    "QUESTIONS/TypeScript/Type vs Interface.md"
   ]
 }
