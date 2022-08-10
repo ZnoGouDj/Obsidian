@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/ООП.md",
+            "file": "JS/instanceof.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "инкапсуляц",
+                "query": "getters",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/ООП.md",
+                "file": "JS/instanceof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,13 +91,13 @@
   "lastOpenFiles": [
     "QUESTIONS/JS/class vs object.md",
     "QUESTIONS/TypeScript/base/class types.md",
+    "JS/Микротаски.md",
+    "GENERAL/ООП.md",
     "QUESTIONS/TypeScript/base/utility types.md",
     "QUESTIONS/TypeScript/base/decorators.md",
     "JS/String char codes.md",
-    "GENERAL/ООП.md",
     "JS/TOP ES6 Features.md",
     "QUESTIONS/TypeScript/base/generics (поверхностно).md",
-    "QUESTIONS/TypeScript/Generics (подробно).md",
-    "QUESTIONS/TypeScript/Type vs Interface.md"
+    "QUESTIONS/TypeScript/Generics (подробно).md"
   ]
 }
