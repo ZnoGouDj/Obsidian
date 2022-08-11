@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa197fe51d41be8",
+        "id": "676e6f16139ed5d3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/instanceof.md",
+            "file": "JS/Mixins in JS.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getters",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345
+    "width": 274.5
   },
   "right": {
     "id": "6dc355e40643abcf",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/instanceof.md",
+                "file": "JS/Mixins in JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8fa197fe51d41be8",
+  "active": "676e6f16139ed5d3",
   "lastOpenFiles": [
+    "JS/String char codes.md",
+    "JS/Mixins in JS.md",
+    "JS/instanceof.md",
     "QUESTIONS/JS/class vs object.md",
     "QUESTIONS/TypeScript/base/class types.md",
     "JS/Микротаски.md",
     "GENERAL/ООП.md",
     "QUESTIONS/TypeScript/base/utility types.md",
     "QUESTIONS/TypeScript/base/decorators.md",
-    "JS/String char codes.md",
-    "JS/TOP ES6 Features.md",
-    "QUESTIONS/TypeScript/base/generics (поверхностно).md",
-    "QUESTIONS/TypeScript/Generics (подробно).md"
+    "JS/TOP ES6 Features.md"
   ]
 }
