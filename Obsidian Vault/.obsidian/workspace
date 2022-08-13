@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/Mixins in JS.md",
+            "file": "GENERAL/JWT.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/Mixins in JS.md",
+                "file": "GENERAL/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "676e6f16139ed5d3",
   "lastOpenFiles": [
-    "JS/String char codes.md",
-    "JS/Mixins in JS.md",
+    "GENERAL/CRUD.md",
+    "images/Screenshot_2022-08-10_14-55-31.png",
+    "GENERAL/express.js.md",
     "JS/instanceof.md",
+    "QUESTIONS/JS/prototype vs proto.md",
+    "JS/Mixins in JS.md",
+    "JS/String char codes.md",
     "QUESTIONS/JS/class vs object.md",
     "QUESTIONS/TypeScript/base/class types.md",
-    "JS/Микротаски.md",
-    "GENERAL/ООП.md",
-    "QUESTIONS/TypeScript/base/utility types.md",
-    "QUESTIONS/TypeScript/base/decorators.md",
-    "JS/TOP ES6 Features.md"
+    "JS/Микротаски.md"
   ]
 }
