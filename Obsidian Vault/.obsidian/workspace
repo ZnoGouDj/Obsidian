@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/JWT.md",
+            "file": "JS/instanceof.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "{}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/JWT.md",
+                "file": "JS/instanceof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "676e6f16139ed5d3",
   "lastOpenFiles": [
-    "GENERAL/CRUD.md",
-    "images/Screenshot_2022-08-10_14-55-31.png",
-    "GENERAL/express.js.md",
-    "JS/instanceof.md",
-    "QUESTIONS/JS/prototype vs proto.md",
-    "JS/Mixins in JS.md",
-    "JS/String char codes.md",
-    "QUESTIONS/JS/class vs object.md",
+    "QUESTIONS/TypeScript/Typeof.md",
+    "QUESTIONS/TypeScript/base/Basic types (pt2).md",
     "QUESTIONS/TypeScript/base/class types.md",
-    "JS/Микротаски.md"
+    "QUESTIONS/HTML CSS/Background-size CSS.md",
+    "GENERAL/Algorithms.md",
+    "QUESTIONS/TypeScript/base/object types.md",
+    "GENERAL/Prettier.md",
+    "QUESTIONS/HTML CSS/Shadow CSS.md",
+    "QUESTIONS/HTML CSS/Custom checkbox.md",
+    "QUESTIONS/HTML CSS/CENTER DIV.md"
   ]
 }

@@ -1,4 +1,4 @@
-(how to center div?! CSS)
+(how to center div within another div?! CSS)
 (Как отцентровать блок по горизонтали и вертикали?!)
 
 <p style="text-align: center; font-weight: bold; font-size: large;">CLASSIC WITH ABSOLUTE</p>

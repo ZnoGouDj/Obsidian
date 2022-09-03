@@ -1,6 +1,6 @@
 ```html
 <div>
-	<input type="checkbox" id="check">
+	<input type="checkbox" id="check" />
 	<label for="check"></label>
 </div>
 ```
