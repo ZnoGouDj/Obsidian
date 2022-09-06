@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/instanceof.md",
+            "file": "QUESTIONS/TypeScript/base/decorators.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{}",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/instanceof.md",
+                "file": "QUESTIONS/TypeScript/base/decorators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "676e6f16139ed5d3",
+  "active": "36127755f55c082d",
   "lastOpenFiles": [
+    "QUESTIONS/HTML CSS/Background-size CSS.md",
+    "JS/spread & rest.md",
+    "QUESTIONS/Git/Git stash.md",
+    "JS/Стрелочные функции.md",
+    "JS/instanceof.md",
     "QUESTIONS/TypeScript/Typeof.md",
     "QUESTIONS/TypeScript/base/Basic types (pt2).md",
     "QUESTIONS/TypeScript/base/class types.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md",
     "GENERAL/Algorithms.md",
-    "QUESTIONS/TypeScript/base/object types.md",
-    "GENERAL/Prettier.md",
-    "QUESTIONS/HTML CSS/Shadow CSS.md",
-    "QUESTIONS/HTML CSS/Custom checkbox.md",
-    "QUESTIONS/HTML CSS/CENTER DIV.md"
+    "QUESTIONS/TypeScript/base/object types.md"
   ]
 }

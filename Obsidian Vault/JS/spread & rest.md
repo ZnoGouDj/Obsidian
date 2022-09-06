@@ -17,6 +17,19 @@ function showName(firstName, lastName, ...titles) {
 1) arguments - псевдомассив (без методов)
 2) arguments берет в себя вообще все аргументы, rest - только те, которые не "заняты" перед ним
 
+However, it can be converted to a real `Array`:
+
+```js
+const args1 = Array.prototype.slice.call(arguments);
+
+const args2 = [].slice.call(arguments);
+
+const args3 = Array.from(arguments);
+// or
+const args4 = [...arguments];
+
+```
+
 
 
  **spread** «расширяет» перебираемый объект `arr` в список аргументов, и с помощью него можно вставить массив в функцию, которая по умолчанию работает с обычным списком аргументов.
