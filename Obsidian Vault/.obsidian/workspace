@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/TypeScript/base/decorators.md",
+            "file": "QUESTIONS/Git/Rebase vs Merge.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/TypeScript/base/decorators.md",
+                "file": "QUESTIONS/Git/Rebase vs Merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "36127755f55c082d",
+  "active": "676e6f16139ed5d3",
   "lastOpenFiles": [
-    "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "JS/spread & rest.md",
-    "QUESTIONS/Git/Git stash.md",
-    "JS/Стрелочные функции.md",
-    "JS/instanceof.md",
-    "QUESTIONS/TypeScript/Typeof.md",
-    "QUESTIONS/TypeScript/base/Basic types (pt2).md",
+    "QUESTIONS/Git/What is HEAD in git?.md",
+    "QUESTIONS/Git/Undo the recent local commits?.md",
+    "QUESTIONS/Git/pull vs fetch.md",
+    "QUESTIONS/Git/How do you revert commit that's been pushed and published?.md",
+    "QUESTIONS/Git/head vs working tree vs index.md",
+    "QUESTIONS/Git/git status vs git diff.md",
+    "QUESTIONS/Git/Git cherry pick.md",
     "QUESTIONS/TypeScript/base/class types.md",
-    "GENERAL/Algorithms.md",
-    "QUESTIONS/TypeScript/base/object types.md"
+    "QUESTIONS/TypeScript/base/decorators.md",
+    "QUESTIONS/HTML CSS/Background-size CSS.md"
   ]
 }
