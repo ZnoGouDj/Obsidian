@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "676e6f16139ed5d3",
+        "id": "0c4b34618b326240",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "QUESTIONS/Git/Rebase vs Merge.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/Git/Rebase vs Merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +82,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "676e6f16139ed5d3",
+  "active": "0c4b34618b326240",
   "lastOpenFiles": [
+    "GENERAL/Docker.md",
+    "QUESTIONS/Git/Rebase vs Merge.md",
     "QUESTIONS/Git/What is HEAD in git?.md",
     "QUESTIONS/Git/Undo the recent local commits?.md",
     "QUESTIONS/Git/pull vs fetch.md",
@@ -96,8 +93,6 @@
     "QUESTIONS/Git/head vs working tree vs index.md",
     "QUESTIONS/Git/git status vs git diff.md",
     "QUESTIONS/Git/Git cherry pick.md",
-    "QUESTIONS/TypeScript/base/class types.md",
-    "QUESTIONS/TypeScript/base/decorators.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md"
+    "QUESTIONS/TypeScript/base/class types.md"
   ]
 }
