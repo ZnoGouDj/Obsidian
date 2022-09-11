@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/GraphQL.md",
+            "file": "GENERAL/CI CD.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graphql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/GraphQL.md",
+                "file": "GENERAL/CI CD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "36127755f55c082d",
+  "active": "0c4b34618b326240",
   "lastOpenFiles": [
+    "QUESTIONS/Git/Rebase vs Merge.md",
+    "GENERAL/CI CD.md",
+    "GENERAL/CORS.md",
+    "GENERAL/Docker.md",
+    "GENERAL/GraphQL.md",
     "QUESTIONS/TypeScript/base/Interface.md",
     "QUESTIONS/TypeScript/base/namespace.md",
     "QUESTIONS/TypeScript/base/utility types.md",
     "QUESTIONS/TypeScript/base/object types.md",
-    "GENERAL/Docker.md",
-    "QUESTIONS/Git/Rebase vs Merge.md",
-    "QUESTIONS/Git/What is HEAD in git?.md",
-    "QUESTIONS/Git/Undo the recent local commits?.md",
-    "QUESTIONS/Git/pull vs fetch.md",
-    "QUESTIONS/Git/How do you revert commit that's been pushed and published?.md"
+    "QUESTIONS/Git/What is HEAD in git?.md"
   ]
 }
