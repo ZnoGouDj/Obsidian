@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/axios.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8e1fb501c25d5a90",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Fetch vs Axios.md",
+            "file": "GENERAL/GraphQL.md",
             "mode": "source",
             "source": false
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fetch vs Axios.md",
+                "file": "GENERAL/GraphQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8e1fb501c25d5a90",
+  "active": "0c4b34618b326240",
   "lastOpenFiles": [
-    "GENERAL/axios.md",
-    "Fetch vs Axios.md",
-    "JS/Fetch.md",
     "GENERAL/CI CD.md",
-    "GENERAL/HTTP.md",
-    "QUESTIONS/Git/Rebase vs Merge.md",
-    "GENERAL/CORS.md",
-    "GENERAL/Docker.md",
     "GENERAL/GraphQL.md",
-    "QUESTIONS/TypeScript/base/Interface.md"
+    "GENERAL/Front End.md",
+    "GENERAL/express.js.md",
+    "GENERAL/endpoints.md",
+    "GENERAL/DOM.md",
+    "GENERAL/Docker.md",
+    "GENERAL/Data Structures.md",
+    "GENERAL/CRUD.md",
+    "GENERAL/CORS.md"
   ]
 }

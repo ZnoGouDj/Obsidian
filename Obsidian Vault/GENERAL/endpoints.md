@@ -1,14 +1,13 @@
 **Эндпоинт** — принимает параметры и возвращают данные Клиенту. Это обращение к маршруту отдельным [[HTTP]] методом.  
 
 **Разберем URL**
+<span style="font-weight: bold; color: gold;">http://example.com/wp-json/wp/v2/posts/123</span>
 
-`http://example.com/wp-json/wp/v2/posts/123`:
-
-Здесь wp/v2/posts/123 — это маршрут, а /wp-json — это базовый путь самого REST API.
+Здесь <span style="font-weight: bold; color: deepskyblue;">wp/v2/posts/123</span> — это маршрут, а <span style="font-weight: bold; color: deepskyblue;">/wp-json</span> — это базовый путь самого [[RestAPI]].
 
 Этот маршрут имеет 3 эндпоинта:
-    -   `GET` — запускает метод `get_item()` и возвращает данные поста Клиенту.
-    -   `PUT|PATCH|POST` — запускает метод `update_item()`, обновляет данные и возвращает их Клиенту.
-    -   `DELETE` — запускает метод `delete_item()`, удаляет пост и возвращает только что удаленные данные Клиенту.
+    -   <span style="font-weight: bold; color: greenyellow;">GET</span> — запускает метод <span style="font-weight: bold; color: mediumvioletred;">get_item()</span> и возвращает данные поста Клиенту.
+    -   <span style="font-weight: bold; color: greenyellow;">PUT|PATCH|POST</span> — запускает метод <span style="font-weight: bold; color: mediumvioletred;">update_item()</span>, обновляет данные и возвращает их Клиенту.
+    -   <span style="font-weight: bold; color: greenyellow;">DELETE</span> — запускает метод <span style="font-weight: bold; color: mediumvioletred;">delete_item()</span>, удаляет пост и возвращает только что удаленные данные Клиенту.
 
-Если сделать GET запрос к корневому маршруту http://example.com/wp-json/, мы получим JSON ответ, в котором видно какие доступны маршруты, и какие доступны эндпоинты для каждого из них. При этом маршрут тут это `/` (корень), а при GET запросе он становится эндпоинтом (конечной точкой).
+Если сделать GET запрос к корневому маршруту <span style="font-weight: bold; color: gold;">http://example.com/wp-json/</span>, мы получим JSON ответ, в котором видно какие доступны маршруты, и какие доступны эндпоинты для каждого из них. При этом маршрут тут это `/` (корень), а при GET запросе он становится эндпоинтом (конечной точкой).
