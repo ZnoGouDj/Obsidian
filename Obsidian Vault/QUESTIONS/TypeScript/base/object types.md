@@ -55,3 +55,10 @@ interface IAdmin extends IPerson {
 	getPass: () => string
 }
 ```
+
+Sometimes you don’t know all the names of a type’s properties ahead of time, but you do know the shape of the values.
+```ts
+interface StringArray {
+	[index: number]: string;
+}
+```
