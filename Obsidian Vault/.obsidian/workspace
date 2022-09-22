@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Debugger.md",
+            "file": "QUESTIONS/TypeScript/Extend the base type.md",
             "mode": "source",
             "source": false
           }
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Debugger.md",
+                "file": "QUESTIONS/TypeScript/Extend the base type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,11 +88,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0c4b34618b326240",
+  "active": "748d4f1f3e0ac31d",
   "lastOpenFiles": [
+    "GENERAL/Debugger.md",
     "GENERAL/CRUD.md",
     "GENERAL/CORS.md",
-    "GENERAL/Debugger.md",
     "GENERAL/axios.md",
     "GENERAL/Babel.md",
     "GENERAL/Cookie.md",
