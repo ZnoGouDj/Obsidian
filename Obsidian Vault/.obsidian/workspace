@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/TypeScript/Extend the base type.md",
+            "file": "JS/Function Composition.md",
             "mode": "source",
             "source": false
           }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/TypeScript/Extend the base type.md",
+                "file": "JS/Function Composition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +87,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "748d4f1f3e0ac31d",
+  "active": "0c4b34618b326240",
   "lastOpenFiles": [
+    "QUESTIONS/TypeScript/Extend the base type.md",
     "GENERAL/Debugger.md",
     "GENERAL/CRUD.md",
     "GENERAL/CORS.md",
@@ -98,7 +98,6 @@
     "GENERAL/Cookie.md",
     "GENERAL/CI CD.md",
     "GENERAL/Docker.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "QUESTIONS/TypeScript/base/object types.md"
+    "QUESTIONS/HTML CSS/Background-size CSS.md"
   ]
 }
