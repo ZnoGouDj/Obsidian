@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/Function Composition.md",
+            "file": "GENERAL/Docker.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/Function Composition.md",
+                "file": "GENERAL/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
-    "QUESTIONS/TypeScript/Extend the base type.md",
-    "GENERAL/Debugger.md",
-    "GENERAL/CRUD.md",
-    "GENERAL/CORS.md",
-    "GENERAL/axios.md",
-    "GENERAL/Babel.md",
-    "GENERAL/Cookie.md",
-    "GENERAL/CI CD.md",
-    "GENERAL/Docker.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md"
+    "QUESTIONS/HTML CSS/Background-size CSS.md",
+    "QUESTIONS/HTML CSS/Adaptive CSS.md",
+    "QUESTIONS/HTML CSS/Transform CSS.md",
+    "QUESTIONS/HTML CSS/Абсолютные и относительные размеры CSS.md",
+    "QUESTIONS/HTML CSS/БЭМ.md",
+    "QUESTIONS/HTML CSS/Виды инпутов.md",
+    "QUESTIONS/HTML CSS/Где размещать скрипты?.md",
+    "QUESTIONS/HTML CSS/Псевдоклассы CSS.md",
+    "QUESTIONS/HTML CSS/Псевдоэлементы CSS.md",
+    "QUESTIONS/HTML CSS/Семантические тэги HTML.md"
   ]
 }
