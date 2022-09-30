@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Local Storage.md",
+            "file": "GENERAL/Prettier.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Local Storage.md",
+                "file": "GENERAL/Prettier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "db27b3d60836a5b1",
   "lastOpenFiles": [
-    "GENERAL/CI CD.md",
+    "GENERAL/Node.js.md",
     "GENERAL/Local Storage.md",
+    "GENERAL/CI CD.md",
     "GENERAL/JWT.md",
     "GENERAL/JSON.md",
     "GENERAL/GraphQL.md",
     "GENERAL/Front End.md",
     "GENERAL/Docker.md",
     "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "QUESTIONS/HTML CSS/Adaptive CSS.md",
-    "QUESTIONS/HTML CSS/Transform CSS.md"
+    "QUESTIONS/HTML CSS/Adaptive CSS.md"
   ]
 }
