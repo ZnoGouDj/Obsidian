@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/Prettier.md",
+            "file": "QUESTIONS/Redux/Redux thunk зачем?.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/Prettier.md",
+                "file": "QUESTIONS/Redux/Redux thunk зачем?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "db27b3d60836a5b1",
   "lastOpenFiles": [
-    "GENERAL/Node.js.md",
-    "GENERAL/Local Storage.md",
-    "GENERAL/CI CD.md",
-    "GENERAL/JWT.md",
-    "GENERAL/JSON.md",
-    "GENERAL/GraphQL.md",
-    "GENERAL/Front End.md",
-    "GENERAL/Docker.md",
+    "QUESTIONS/Redux/Redux  это?.md",
+    "QUESTIONS/Redux/FLOW Redux'a.md",
+    "QUESTIONS/TypeScript/base/Basic types (pt2).md",
+    "QUESTIONS/HTML CSS/Adaptive CSS.md",
     "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "QUESTIONS/HTML CSS/Adaptive CSS.md"
+    "QUESTIONS/HTML CSS/Best Breakpoints CSS.md",
+    "QUESTIONS/HTML CSS/Border vs Outline.md",
+    "QUESTIONS/HTML CSS/CENTER DIV.md",
+    "QUESTIONS/HTML CSS/Box sizing CSS.md",
+    "QUESTIONS/HTML CSS/Увеличение при наведении.md"
   ]
 }

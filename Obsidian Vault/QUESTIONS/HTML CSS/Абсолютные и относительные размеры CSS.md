@@ -2,7 +2,7 @@
 
 Самые популярные - px, em, rem (vw, vh)
 
-### Absolute
+<h3 style="font-weight: bold; color: mediumvioletred; text-align: center;">ABSOLUTE</h3>
 
 <table>
  <thead>
@@ -51,7 +51,7 @@
  </tbody>
 </table>
 
-### Relative 
+<h3 style="font-weight: bold; color: deepskyblue;text-align: center;">RELATIVE</h3>
 
 <table>
  <thead>
