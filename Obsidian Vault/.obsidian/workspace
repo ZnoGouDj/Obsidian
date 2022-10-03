@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/CI CD.md",
+            "file": "JS/instanceof.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QUESTIONS/JS/Var, let, const.md",
+                "file": "JS/instanceof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db27b3d60836a5b1",
+  "active": "0c4b34618b326240",
   "lastOpenFiles": [
-    "GENERAL/CI CD.md",
     "QUESTIONS/JS/Var, let, const.md",
-    "QUESTIONS/JS/Split by several chars.md",
-    "QUESTIONS/JS/prototype vs proto.md",
-    "QUESTIONS/JS/Map, reduce & filter.md",
-    "QUESTIONS/JS/defer & async.md",
-    "QUESTIONS/JS/class vs object.md",
-    "QUESTIONS/JS/async-await vs promises.md",
-    "QUESTIONS/JS/'for in' vs 'for of'.md",
-    "QUESTIONS/TypeScript/Extend the base type.md"
+    "JS/instanceof.md",
+    "JS/Function Composition.md",
+    "JS/Fetch.md",
+    "JS/Event Loop.md",
+    "JS/AJAX.md",
+    "JS/ESLint.md",
+    "JS/async.md",
+    "GENERAL/CI CD.md",
+    "QUESTIONS/JS/Split by several chars.md"
   ]
 }

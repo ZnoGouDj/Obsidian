@@ -1,6 +1,6 @@
 Function Composition (композиция)
 
-The function `compose` has a evaluation order from _right to left_.
+The function <span style="font-weight: bold; color: mediumvioletred;">compose</span> has a evaluation order from _right to left_:
 
 ```javascript
 /*
@@ -11,7 +11,7 @@ The function `compose` has a evaluation order from _right to left_.
 const compose = (f, g) => x => f(g(x))
 ```
 
-There is another function called `pipe` which evaluates from _left to right_
+There is another function called <span style="font-weight: bold; color: deepskyblue;">pipe</span> which evaluates from _left to right_:
 
 ```javascript
 const pipe = (g, f) => x => f(g(x))
@@ -19,18 +19,15 @@ const pipe = (g, f) => x => f(g(x))
 
 # Function Composition with `n` Arguments
 
-And again we have
-
--   compose
-    
-    const compose = (...fns) => fns.reduceRight((f, g) => (...args) => 
-        g(f(...args)))
-    
--   pipe
-    
-    const pipe = (...fns) => fns.reduce((f, g) => (...args) => 
-        g(f(...args)))
-    
+And again we have:
+-   <span style="font-weight: bold; color: mediumvioletred;">compose</span>
+```js
+const compose = (...fns) => fns.reduceRight((f, g) => (...args) => g(f(...args)))
+```
+-   <span style="font-weight: bold; color: deepskyblue;">pipe</span>
+```js
+const pipe = (...fns) => fns.reduce((f, g) => (...args) => g(f(...args)))
+```
 
 Our goal is it to compose to `ungroup` and `flatten` the function `groupBy`, too.  
 We could try
@@ -43,7 +40,7 @@ const groupByNameAndFlattenAndUngroup = compose(
 )
 ```
 
-but this will not work. We can only compose functions with one argument.. The solution is to rewrite `groupBy` to a _curried_ version:
+but this will not work. We can only compose functions with one argument. The solution is to rewrite `groupBy` to a _curried_ version:
 
 ```javascript
 const groupBy = xs => key =>

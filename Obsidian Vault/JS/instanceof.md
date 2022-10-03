@@ -18,13 +18,13 @@ alert(arr instanceof Object); // true (since Array inherits the Object)
 ```
 
 ### Object.prototype.toString to define the type
-Обычные объекты приводятся к строке в виде `[object Object]`, но мы можем также использовать этот метод как альтернативу **typeof** & **instanceof**:
+Обычные объекты приводятся к строке в виде <span style="font-weight: bold; color: gold;">[object Object]</span>, но мы можем также использовать этот метод как альтернативу **typeof** & **instanceof**:
 
-- для чисел возвращает `[object Number]`
-- для булевых `[object Boolean]`
-- для null `[object Null]`
-- для undefined `[object Undefined]`
-- для массивов `[object Array]`
+- для чисел возвращает <span style="font-weight: bold; color: mediumvioletred;">[object Number]</span>
+- для булевых <span style="font-weight: bold; color: deepskyblue;">[object Boolean]</span>
+- для null <span style="font-weight: bold; color: mediumvioletred;">[object Null]</span>
+- для undefined <span style="font-weight: bold; color: deepskyblue;">[object Undefined]</span>
+- для массивов <span style="font-weight: bold; color: mediumvioletred;">[object Array]</span>
 
 ```js
 let objToStr = Object.prototype.toString;
