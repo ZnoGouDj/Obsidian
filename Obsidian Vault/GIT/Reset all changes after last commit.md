@@ -1,4 +1,4 @@
-# Reset all changes after last commit in git
+### Reset all changes after last commit in git
 
 First reset the changes
 

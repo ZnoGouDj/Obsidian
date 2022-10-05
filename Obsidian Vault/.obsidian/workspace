@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS/instanceof.md",
+            "file": "GIT/Reset all changes after last commit.md",
             "mode": "source",
             "source": false
           }
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "respons",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/instanceof.md",
+                "file": "GIT/Reset all changes after last commit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
-    "QUESTIONS/JS/Var, let, const.md",
+    "GIT/Accidental git init.md",
+    "GENERAL/утечка памяти.md",
+    "GENERAL/axios.md",
     "JS/instanceof.md",
+    "QUESTIONS/JS/Var, let, const.md",
     "JS/Function Composition.md",
     "JS/Fetch.md",
     "JS/Event Loop.md",
     "JS/AJAX.md",
-    "JS/ESLint.md",
-    "JS/async.md",
-    "GENERAL/CI CD.md",
-    "QUESTIONS/JS/Split by several chars.md"
+    "JS/ESLint.md"
   ]
 }
