@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GIT/Reset all changes after last commit.md",
+            "file": "GENERAL/JWT.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "db27b3d60836a5b1",
+        "id": "63ac3f56bf3a3a85",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "QUESTIONS/JS/Var, let, const.md",
+            "file": "GENERAL/CI CD.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/Reset all changes after last commit.md",
+                "file": "GENERAL/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
-    "GIT/Accidental git init.md",
-    "GENERAL/утечка памяти.md",
-    "GENERAL/axios.md",
-    "JS/instanceof.md",
+    "GENERAL/CI CD.md",
+    "GENERAL/JWT.md",
+    "JS/String methods.md",
+    "JS/spread & rest.md",
+    "JS/String char codes.md",
+    "QUESTIONS/HTML CSS/Background-size CSS.md",
+    "GIT/Reset all changes after last commit.md",
     "QUESTIONS/JS/Var, let, const.md",
-    "JS/Function Composition.md",
-    "JS/Fetch.md",
-    "JS/Event Loop.md",
-    "JS/AJAX.md",
-    "JS/ESLint.md"
+    "GIT/Accidental git init.md",
+    "GENERAL/утечка памяти.md"
   ]
 }
