@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/JWT.md",
+            "file": "GENERAL/KISS.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/JWT.md",
+                "file": "GENERAL/KISS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +102,7 @@
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
     "GENERAL/CI CD.md",
+    "GENERAL/KISS.md",
     "GENERAL/JWT.md",
     "JS/String methods.md",
     "JS/spread & rest.md",
@@ -109,7 +110,6 @@
     "QUESTIONS/HTML CSS/Background-size CSS.md",
     "GIT/Reset all changes after last commit.md",
     "QUESTIONS/JS/Var, let, const.md",
-    "GIT/Accidental git init.md",
-    "GENERAL/утечка памяти.md"
+    "GIT/Accidental git init.md"
   ]
 }
