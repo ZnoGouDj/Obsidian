@@ -4,7 +4,7 @@
 
 Существует другой, более современный метод [[Fetch]].
 
-*Типичный код GET-запроса с использованием `XMLHttpRequest`:*
+*Типичный код GET-запроса с использованием <span style="font-weight: bold; color: gold;">XMLHttpRequest</span>*
 
 ```javascript
 let xhr = new XMLHttpRequest(); 

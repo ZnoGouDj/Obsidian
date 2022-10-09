@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/KISS.md",
+            "file": "GENERAL/ООП.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/KISS.md",
+                "file": "GENERAL/ООП.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,14 +102,14 @@
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
     "GENERAL/CI CD.md",
-    "GENERAL/KISS.md",
-    "GENERAL/JWT.md",
-    "JS/String methods.md",
-    "JS/spread & rest.md",
-    "JS/String char codes.md",
-    "QUESTIONS/HTML CSS/Background-size CSS.md",
-    "GIT/Reset all changes after last commit.md",
-    "QUESTIONS/JS/Var, let, const.md",
-    "GIT/Accidental git init.md"
+    "GENERAL/ООП.md",
+    "GENERAL/XMLHttpRequest.md",
+    "GENERAL/WebSocket.md",
+    "GENERAL/Webpack.md",
+    "GENERAL/SOLID.md",
+    "GENERAL/RestAPI.md",
+    "GENERAL/Recursion.md",
+    "GENERAL/Prettier.md",
+    "GENERAL/Node.js.md"
   ]
 }
