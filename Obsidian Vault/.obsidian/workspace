@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/ООП.md",
+            "file": "GENERAL/протокол.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/ООП.md",
+                "file": "GENERAL/протокол.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +102,7 @@
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
     "GENERAL/CI CD.md",
+    "GENERAL/протокол.md",
     "GENERAL/ООП.md",
     "GENERAL/XMLHttpRequest.md",
     "GENERAL/WebSocket.md",
@@ -109,7 +110,6 @@
     "GENERAL/SOLID.md",
     "GENERAL/RestAPI.md",
     "GENERAL/Recursion.md",
-    "GENERAL/Prettier.md",
-    "GENERAL/Node.js.md"
+    "GENERAL/Prettier.md"
   ]
 }
