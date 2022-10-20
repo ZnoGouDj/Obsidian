@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GENERAL/протокол.md",
+            "file": "QUESTIONS/HTML CSS/Rare HTML tags.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENERAL/протокол.md",
+                "file": "QUESTIONS/HTML CSS/Rare HTML tags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +102,7 @@
   "active": "0c4b34618b326240",
   "lastOpenFiles": [
     "GENERAL/CI CD.md",
+    "QUESTIONS/HTML CSS/Rare HTML tags.md",
     "GENERAL/протокол.md",
     "GENERAL/ООП.md",
     "GENERAL/XMLHttpRequest.md",
@@ -109,7 +110,6 @@
     "GENERAL/Webpack.md",
     "GENERAL/SOLID.md",
     "GENERAL/RestAPI.md",
-    "GENERAL/Recursion.md",
-    "GENERAL/Prettier.md"
+    "GENERAL/Recursion.md"
   ]
 }
