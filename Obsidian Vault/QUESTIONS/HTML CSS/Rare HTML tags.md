@@ -76,10 +76,10 @@ Should open/close p tag, not working here though
 To show different content with different dimensions
 
 <span style="font-weight: bold; color: gold;">Поддержка тегов по caniuse: </span>
-datalist 97% 
-sub, sup 51% 
-details 97% 
-summary 80% 
-Dialog 92% (к сожалению сафари только с 15 версии поддерживает) 
-figure 95%
-picture 97%
+datalist **97%** 
+sub, sup **51%** 
+details **97%** 
+summary **80%** 
+Dialog **92%** (к сожалению сафари только с 15 версии поддерживает) 
+figure **95%**
+picture **97%**
