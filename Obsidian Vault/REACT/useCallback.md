@@ -9,5 +9,5 @@ const memoizedCallback = useCallback(
 
 Хук, похожий по принципу работы на [[useMemo]], только возвращает функцию (колбэк), которая изменяется ТОЛЬКО если изменяются зависимости. 
 
-**useMemo: возвращает и хранит вычисленное значение функции в переменной**
-**useCallBack: возвращает и хранит саму функцию в переменной**
+**<span style="font-weight: bold; color: mediumvioletred;">useMemo:</span> возвращает и хранит вычисленное значение функции в переменной**
+**<span style="font-weight: bold; color: deepskyblue;">useCallback:</span> возвращает и хранит саму функцию в переменной**
