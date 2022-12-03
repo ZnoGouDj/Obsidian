@@ -75,7 +75,7 @@ Should open/close p tag, not working here though
 
 To show different content with different dimensions
 
-<span style="font-weight: bold; color: gold;">Поддержка тегов по caniuse: </span>
+<span style="font-weight: bold; color: #FFB514;">Поддержка тегов по caniuse: </span>
 datalist **97%** 
 sub, sup **51%** 
 details **97%** 

@@ -6,7 +6,7 @@ GraphQL это **синтаксис ([[протокол]]), который оп
 
 <span style="font-weight: bold; color: mediumvioletred;">Решает проблему избыточных данных</span>, когда например классический HTTP-сервер запрашивает все данные о пользователе, хотя нам нужно только имя. В случае GraphQL вернутся только запрошенные параметры.
 
-Все начинается с <span style="font-weight: bold; color: gold;">построения схемы.</span> В ней мы <span style="font-weight: bold; color: deepskyblue;">описываем типы, мутации, запросы:</span>
+Все начинается с <span style="font-weight: bold; color: #FFB514;">построения схемы.</span> В ней мы <span style="font-weight: bold; color: deepskyblue;">описываем типы, мутации, запросы:</span>
 ```ts
 type User {
 	id: ID
@@ -16,7 +16,7 @@ type User {
 }
 ```
 
-Далее строится <span style="font-weight: bold; color: gold;">query или запрос</span>. Описывает, какие данные мы должны получить с сервера.
+Далее строится <span style="font-weight: bold; color: #FFB514;">query или запрос</span>. Описывает, какие данные мы должны получить с сервера.
 В данном примере <span style="font-weight: bold; color: deepskyblue;">запрашиваем пользователей и берем от них username и age:</span>
 ```ts
 query {
@@ -27,7 +27,7 @@ query {
 }
 ```
 
-Далее <span style="font-weight: bold; color: gold;">мутации.</span> Позволяют какие-то данные добавить, обновить, перезаписать. То есть аналог POST или  PUT запроса в HTTP.
+Далее <span style="font-weight: bold; color: #FFB514;">мутации.</span> Позволяют какие-то данные добавить, обновить, перезаписать. То есть аналог POST или  PUT запроса в HTTP.
 В данном примере <span style="font-weight: bold; color: deepskyblue;">создаем пользователя Вася 22 года, и говорим GraphQL-серверу "верни нам в ответ на эту мутацию его id и username":</span>
 ```ts
 mutation createUser{
@@ -37,7 +37,7 @@ mutation createUser{
 }
 ```
 
-Далее <span style="font-weight: bold; color: gold;">subscription или подписки. </span> С помощью них клиент слушает изменения в базе данных в режиме реального времени. Под капотом используют [[WebSocket]].
+Далее <span style="font-weight: bold; color: #FFB514;">subscription или подписки. </span> С помощью них клиент слушает изменения в базе данных в режиме реального времени. Под капотом используют [[WebSocket]].
 ```ts 
 subscription listenPostLikes {
 	listenPostLikes {

@@ -1,7 +1,7 @@
 <span style="font-weight: bold; color: mediumvioletred;">AXIOS</span> лучше, если приложение большое, много HTTP-запросов, где надо хендлить ошибки или использовать HTTP-interceptors
 <span style="font-weight: bold; color: deepskyblue;">FETCH</span> для мелких проектов, где несколько простых запросов. Чтобы не загружать проект библиотекой.
 
-<span style="font-weight: bold; color: gold;">JSON</span>
+<span style="font-weight: bold; color: #FFB514;">JSON</span>
 
 При получении данных в ответ они автоматически stringified (нужен только 1 **.then**)
 ```js 
@@ -17,7 +17,7 @@ axios.get(url)
 	.catch((err) => console.log(err))
 ```
 
-<span style="font-weight: bold; color: gold;">Error Handling</span>
+<span style="font-weight: bold; color: #FFB514;">Error Handling</span>
 
 При получении ответа с FETCH, надо проверять успешен ли статус, потому что мы получим ответ даже если он не успешен. Промис НЕ БУДЕТ заресолвлен только когда запрос не будет выполнен.
 В случае AXIOS, если будет "плохой" ответ (типа 404), тогда промис будет отклонен и вернется ошибка. И нам нужно ее словить и проверить, какого она типа.
@@ -53,12 +53,12 @@ axios.get(url)
 	})
 ```
 
-<span style="font-weight: bold; color: gold;">Download Progress</span>
+<span style="font-weight: bold; color: #FFB514;">Download Progress</span>
 
 Чтобы отследить прогресс загрузки в FETCH, можно использовать один из пропсов response.body - объект readableStream. Он дает ответ порциями и позволяет считать получение даты за единицу времени. 
 В AXIOS это проще, потому что существует готовый модуль, который можно установить (AXIOS PROGRESS BAR)
 
-<span style="font-weight: bold; color: gold;">HTTP Interception</span>
+<span style="font-weight: bold; color: #FFB514;">HTTP Interception</span>
 
 (когда нам надо проверить или изменить наш HTTP запрос на сервер, или с сервера. Например для аутентификации)
 

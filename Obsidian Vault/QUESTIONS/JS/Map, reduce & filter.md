@@ -6,4 +6,4 @@
 
 <span style="font-weight: bold; color: deepskyblue;">Filter</span> позволяет отфильтровывать массив и возвращать только те элементы, для которых колбэк вернул true.
 
-<span style="font-weight: bold; color: gold;">Reduce</span> — функция, которая по некоторому аккумулятору позволяет сделать подсчет каких-то данных.
+<span style="font-weight: bold; color: #FFB514;">Reduce</span> — функция, которая по некоторому аккумулятору позволяет сделать подсчет каких-то данных.

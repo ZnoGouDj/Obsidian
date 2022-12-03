@@ -1,6 +1,6 @@
 Библиотека для асинхронных [[HTTP]]-запросов к серверу. Построена на Promise API. В отличие от [[Fetch]] надо установить.
 
-<span style="font-weight: bold; color: gold; ">Типичный запрос</span>
+<span style="font-weight: bold; color: #FFB514; ">Типичный запрос</span>
 
 ```js
 axios.get(url)
@@ -20,7 +20,7 @@ axios.get(url)
 5) config - конфигурация из запроса
 6) request - XMLHttpRequest объект
 
-<span style="font-weight: bold; color: gold;">Запрос с POST</span>
+<span style="font-weight: bold; color: #FFB514;">Запрос с POST</span>
 
 ```js
 axios.post({

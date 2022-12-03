@@ -5,12 +5,12 @@
 
 Обa предоставляют одинаковые методы и свойства:
 
--  <span style="font-weight: bold; color: gold;">setItem(key, value)</span> – сохранить пару ключ/значение.
--  <span style="font-weight: bold; color: gold;">getItem(key)</span> – получить данные по ключу `key`.
--  <span style="font-weight: bold; color: gold;">removeItem(key)</span> – удалить данные с ключом `key`.
--  <span style="font-weight: bold; color: gold;">clear()</span> – удалить всё.
--  <span style="font-weight: bold; color: gold;">key(index)</span> – получить ключ на заданной позиции.
--  <span style="font-weight: bold; color: gold;">length</span> – количество элементов в хранилище.
+-  <span style="font-weight: bold; color: #FFB514;">setItem(key, value)</span> – сохранить пару ключ/значение.
+-  <span style="font-weight: bold; color: #FFB514;">getItem(key)</span> – получить данные по ключу `key`.
+-  <span style="font-weight: bold; color: #FFB514;">removeItem(key)</span> – удалить данные с ключом `key`.
+-  <span style="font-weight: bold; color: #FFB514;">clear()</span> – удалить всё.
+-  <span style="font-weight: bold; color: #FFB514;">key(index)</span> – получить ключ на заданной позиции.
+-  <span style="font-weight: bold; color: #FFB514;">length</span> – количество элементов в хранилище.
 
 <span style="font-weight: bold; color: #39d353;">Но ведь у нас уже есть куки. Зачем тогда эти объекты?</span>
 -   В отличие от куки, объекты веб-хранилища не отправляются на сервер при каждом запросе. Поэтому мы можем хранить гораздо больше данных. Большинство браузеров могут сохранить как минимум 2 мегабайта данных (или больше), и этот размер можно поменять в настройках.

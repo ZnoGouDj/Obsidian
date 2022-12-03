@@ -18,7 +18,7 @@ alert(arr instanceof Object); // true (since Array inherits the Object)
 ```
 
 ### Object.prototype.toString to define the type
-Обычные объекты приводятся к строке в виде <span style="font-weight: bold; color: gold;">[object Object]</span>, но мы можем также использовать этот метод как альтернативу **typeof** & **instanceof**:
+Обычные объекты приводятся к строке в виде <span style="font-weight: bold; color: #FFB514;">[object Object]</span>, но мы можем также использовать этот метод как альтернативу **typeof** & **instanceof**:
 
 - для чисел возвращает <span style="font-weight: bold; color: mediumvioletred;">[object Number]</span>
 - для булевых <span style="font-weight: bold; color: deepskyblue;">[object Boolean]</span>
