@@ -1,4 +1,4 @@
-**CI/CD (<span style="font-weight: bold; color: mediumvioletred;">CONTINUOUS INTEGRATION</span>, <span style="font-weight: bold; color: deepskyblue;">CONTINUOUS DELIVERY</span>)**
+**CI/CD (<span style="font-weight: bold; color: #FE5C2B;">CONTINUOUS INTEGRATION</span>, <span style="font-weight: bold; color: deepskyblue;">CONTINUOUS DELIVERY</span>)**
 
 Проверяет, что новый добавленный код не сломал приложение (грубо говоря).
 
@@ -16,7 +16,7 @@
 
 Поэтому настроенный CI снимает ответственность с разработчиков за забытые проверки, и запретит мержить ветку до тех пор, пока все тесты не будут пройдены. 
 
-ЭТО ВСЕ ПРО ЛЕВУЮ ЧАСТЬ (<span style="font-weight: bold; color: mediumvioletred;">CONTINUOUS INTEGRATION</span>)
+ЭТО ВСЕ ПРО ЛЕВУЮ ЧАСТЬ (<span style="font-weight: bold; color: #FE5C2B;">CONTINUOUS INTEGRATION</span>)
 
 С <span style="font-weight: bold; color: deepskyblue;">CONTINUOUS DELIVERY</span> еще проще.
 

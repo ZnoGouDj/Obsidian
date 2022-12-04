@@ -10,7 +10,7 @@ axios.get(url)
 
 Если нам нужен какой-то другой метод, просто меняем GET после точки на POST, PUT и т.д.
 
-Можем создать <span style="font-weight: bold; color: mediumvioletred;">config object</span> и определить в нем пропсы, например baseUrl, params, headers, auth, responseType.
+Можем создать <span style="font-weight: bold; color: #FE5C2B;">config object</span> и определить в нем пропсы, например baseUrl, params, headers, auth, responseType.
 
 <span style="font-weight: bold; color: deepskyblue;">В ответ</span> axios возвращает промис, который надо заресолвить, и в полученном объекте у нас будут следующие значения:
 1) data - тело ответа
@@ -29,7 +29,7 @@ axios.post({
 	{ options }
 })
 ```
-либо можем создать <span style="font-weight: bold; color: mediumvioletred;">config object</span> и передать его как переменную:
+либо можем создать <span style="font-weight: bold; color: #FE5C2B;">config object</span> и передать его как переменную:
 ```js
 const config = {
 	url: 'http://api.com',
