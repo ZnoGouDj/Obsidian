@@ -1,6 +1,6 @@
 Метод **fetch** — XMLHttpRequest нового поколения, встроен в window object, позволяет асинхронно получать данные без установки библиотек. Построен на промисах.
 
-<span style="font-weight: bold; color: mediumvioletred;">Первый аргумент</span> — url (откуда берем данные), затем обрабатываем его через .then, или ошибку через .catch.
+<span style="font-weight: bold; color: #FE5C2B;">Первый аргумент</span> — url (откуда берем данные), затем обрабатываем его через .then, или ошибку через .catch.
 
 ```js
 let response = await fetch(url, options); // завершается с заголовками ответа let 
