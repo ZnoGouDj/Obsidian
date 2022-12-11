@@ -1,5 +1,5 @@
 
-<span style="font-weight: bold; color: mediumvioletred;font-size:17px;">Группировка по функциональности или маршруту</span>
+<span style="font-weight: bold; color: #FE5C2B;font-size:17px;">Группировка по функциональности или маршруту</span>
 
 ```
 feed/

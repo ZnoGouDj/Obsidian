@@ -1,4 +1,4 @@
-<span style="font-weight: bold; color: mediumvioletred;">AXIOS</span> лучше, если приложение большое, много HTTP-запросов, где надо хендлить ошибки или использовать HTTP-interceptors
+<span style="font-weight: bold; color:#FE5C2B;">AXIOS</span> лучше, если приложение большое, много HTTP-запросов, где надо хендлить ошибки или использовать HTTP-interceptors
 <span style="font-weight: bold; color: deepskyblue;">FETCH</span> для мелких проектов, где несколько простых запросов. Чтобы не загружать проект библиотекой.
 
 <span style="font-weight: bold; color: #FFB514;">JSON</span>

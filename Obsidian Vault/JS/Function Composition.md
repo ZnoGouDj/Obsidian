@@ -1,6 +1,6 @@
 Function Composition (композиция)
 
-The function <span style="font-weight: bold; color: mediumvioletred;">compose</span> has a evaluation order from _right to left_:
+The function <span style="font-weight: bold; color: #FE5C2B;">compose</span> has a evaluation order from _right to left_:
 
 ```javascript
 /*
@@ -20,7 +20,7 @@ const pipe = (g, f) => x => f(g(x))
 # Function Composition with `n` Arguments
 
 And again we have:
--   <span style="font-weight: bold; color: mediumvioletred;">compose</span>
+-   <span style="font-weight: bold; color: #FE5C2B;">compose</span>
 ```js
 const compose = (...fns) => fns.reduceRight((f, g) => (...args) => g(f(...args)))
 ```
