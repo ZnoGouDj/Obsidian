@@ -1,4 +1,4 @@
-<span style="font-weight: bold; color: mediumvioletred;">Принцип KISS («keep it short and simple»)</span> — это когда вы берёте задачу и решаете её простым способом:
+<span style="font-weight: bold; color: #FE5C2B;">Принцип KISS («keep it short and simple»)</span> — это когда вы берёте задачу и решаете её простым способом:
 
 -   делаете просто и только то, что просит заказчик или работодатель.
 -   пишете код, который будет понятен другим разработчикам даже через десять лет.
