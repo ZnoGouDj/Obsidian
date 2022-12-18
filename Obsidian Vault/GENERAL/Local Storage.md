@@ -1,6 +1,6 @@
-<span style="font-weight: bold; color: mediumvioletred;">Local storage</span> и <span style="font-weight: bold; color: deepskyblue;">Session storage</span> позволяют хранить пары ключ/значение в браузере. 
+<span style="font-weight: bold; color: #FE5C2B;">Local storage</span> и <span style="font-weight: bold; color: deepskyblue;">Session storage</span> позволяют хранить пары ключ/значение в браузере. 
 
-<span style="font-weight: bold; color: mediumvioletred;">Local storage</span> сохраняются после перезапуска браузера, используется гораздо чаще.
+<span style="font-weight: bold; color: #FE5C2B;">Local storage</span> сохраняются после перезапуска браузера, используется гораздо чаще.
 <span style="font-weight: bold; color: deepskyblue;">Session storage</span> сохраняются только после обновления страницы.
 
 Обa предоставляют одинаковые методы и свойства:
