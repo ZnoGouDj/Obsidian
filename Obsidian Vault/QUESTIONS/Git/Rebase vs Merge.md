@@ -1,7 +1,7 @@
 ![[git_merge.gif]]
 ![[git_rebase.gif]]
 
-<b style="color: mediumvioletred;">Merge</b>
+<b style="color: #FE5C2B;">Merge</b>
 Если мы создали ветку для фичи и хотим слить ее с мастером, то нам не нужны все эти промежуточные коммиты и мы можем вмержить.
 ```bash
 git checkout master
@@ -24,9 +24,9 @@ git push
 ```
 
 Отличия:
-1) Итоговая структура истории будет отличаться (в случае <b style="color: mediumvioletred">merge</b> будут ветки, в случае <b style="color: deepskyblue;">rebase</b> нет)
-2) <b style="color: mediumvioletred">Merge</b> создаст новый дополнительный коммит (узел в дереве)
-3) <b style="color: mediumvioletred">Merge</b> и <b style="color: deepskyblue;">rebase</b> отображают конфликты по-разному. <b style="color: mediumvioletred">Merge</b> вываливает все конфликты сразу, а  <b style="color: deepskyblue;">rebase</b> из каждого коммита по очереди
+1) Итоговая структура истории будет отличаться (в случае <b style="color: #FE5C2B">merge</b> будут ветки, в случае <b style="color: deepskyblue;">rebase</b> нет)
+2) <b style="color: #FE5C2B">Merge</b> создаст новый дополнительный коммит (узел в дереве)
+3) <b style="color: #FE5C2B">Merge</b> и <b style="color: deepskyblue;">rebase</b> отображают конфликты по-разному. <b style="color: #FE5C2B">Merge</b> вываливает все конфликты сразу, а  <b style="color: deepskyblue;">rebase</b> из каждого коммита по очереди
 
 Выбираем мерж или ребейз в зависимости от того, как хотим чтобы выглядела наша ИСТОРИЯ. 
 Теоретически, если проект огромный, может быть неудобно отслеживать историю, так как остается много веток после мержей и лучше выбирать rebase. 

@@ -1,4 +1,4 @@
-1) <span style="font-weight: bold; color: mediumvioletred;">datalist</span>
+1) <span style="font-weight: bold; color: #FE5C2B;">datalist</span>
 
 <input type="text" list="techs" />
 
@@ -13,7 +13,7 @@
 H<sub>2</sub>O
 E = MC<sup>2</sup>
 
-3) <span style="font-weight: bold; color: mediumvioletred;">details & summary</span>
+3) <span style="font-weight: bold; color: #FE5C2B;">details & summary</span>
 
 ```html
 <details open>
@@ -55,7 +55,7 @@ Should open/close p tag, not working here though
 
 Создает затемняющее фон модальное окно.
 
-5) <span style="font-weight: bold; color: mediumvioletred;">figure</span>
+5) <span style="font-weight: bold; color: #FE5C2B;">figure</span>
 
 <figure>
 	<img src="https://source.unsplash.com/random/100x100" alt="" />
