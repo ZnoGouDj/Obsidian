@@ -3,7 +3,7 @@
 Есть прочие стандарты, такие как SOAP & [[GraphQL]]
 
 То есть просто НАБОР ПРАВИЛ написания кода. 
-Сервис, написанный с учетом всех правил REST принято называть <span style="font-weight: bold; color: mediumvioletred;">RESTful</span>. 
+Сервис, написанный с учетом всех правил REST принято называть <span style="font-weight: bold; color: #FE5C2B;">RESTful</span>. 
 
 У REST приложения есть некий <span style="font-weight: bold; color: deepskyblue;">список URL-адресов</span>, с помощью которых можно будет общаться с нашим сервером и менять там какую-то информацию.
 ![[url-address-list.png]]
