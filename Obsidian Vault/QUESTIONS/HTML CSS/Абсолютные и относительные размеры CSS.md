@@ -2,7 +2,7 @@
 
 Самые популярные - px, em, rem (vw, vh)
 
-<h3 style="font-weight: bold; color: mediumvioletred; text-align: center;">ABSOLUTE</h3>
+<h3 style="font-weight: bold; color: #FE5C2B; text-align: center;">ABSOLUTE</h3>
 
 <table>
  <thead>
